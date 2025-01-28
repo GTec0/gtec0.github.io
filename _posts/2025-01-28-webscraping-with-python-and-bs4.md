@@ -3,6 +3,8 @@ layout: post
 title: Webscraping with python and bs4
 tags: [python, web scraping, beautifulsoup, data extraction, python tutorial, web automation, scraping, programming, coding, requests, beginner friendly, how-to, guide]
 comments: true
+thumbnail-img: /assets/img/webscraping_py_bs4.png
+share-img: /assets/img/webscraping_py_bs4.png
 mathjax: true
 author: Asahluma Tyika
 ---
