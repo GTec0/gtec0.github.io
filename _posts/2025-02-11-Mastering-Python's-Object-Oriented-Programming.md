@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Mastering Python's Object-Oriented Programming: A Comprehensive Guide
-thumbnail-img:"/assets/img/aauDAmI.jpg"
-share-img: "/assets/img/aauDAmI.jpg"
-tags:
+thumbnail-img: /assets/img/aauDAmI.jpg
+share-img: /assets/img/aauDAmI.jpg
+tags: ['OOP', 'Object-Oriented Programming', 'Python Programming', 'Python Tutorial']
 author: Asahluma Tyika
 ---
 
