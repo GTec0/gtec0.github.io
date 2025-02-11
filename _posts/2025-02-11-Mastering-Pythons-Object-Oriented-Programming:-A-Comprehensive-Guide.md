@@ -29,10 +29,8 @@ class Dog:
         self.name = name
         self.breed = breed
         self.age = age
-
     def bark(self):
         print("Woof!")
-
     def describe(self):
         print(f"My name is {self.name}, I'm a {self.breed}, and I'm {self.age} years old.")
 
@@ -100,10 +98,8 @@ class Person:
     def __init__(self name age):
         self.name = name
         self._age = age  # Convention for a private attribute
-
     def get_age(self):
         return self._age
-
     def set_age(self, new_age):
         if new_age > 0:
             self._age = new_age
@@ -133,7 +129,6 @@ class Shape(ABC):
 class Circle(Shape):
     def __init__(self radius):
         self.radius = radius
-
     def area(self):
         return 3.14159 * self.radius * self.radius
 
