@@ -17,7 +17,7 @@ Got questions, feedback, or collaboration ideas? Reach out to me through the fol
 
 - **Email:** [tyikaasahluma02@gmail.com](mailto:tyikaasahluma02@gmail.com)  
 - **Social Media:**   
-  - [Facebook](https://facebook.com/yourpage)    
+  - [Facebook](https://www.facebook.com/gtec.2025)    
 
 We’d love to hear from you!  
 
@@ -27,6 +27,6 @@ We’d love to hear from you!
 
 Stay connected for the latest updates, tips, and tutorials:  
  
-- [Facebook](https://facebook.com/yourpage)    
+- [Facebook](https://www.facebook.com/gtec.2025)    
 
 Thank you for visiting **GTec**. Let’s learn and grow together!  
