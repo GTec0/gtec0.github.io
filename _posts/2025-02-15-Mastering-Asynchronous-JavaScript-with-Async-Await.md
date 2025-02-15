@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mastering Asynchronous JavaScript with Async Await
+thumbnail-img: assets/img/asyJk.jpg
+share-img: assets/img/asyJk.jpg
 comments: true
 tags: [JavaScript, Async/Await, Asynchronous Programming, Node.js]
 author: Asahluma Tyika
