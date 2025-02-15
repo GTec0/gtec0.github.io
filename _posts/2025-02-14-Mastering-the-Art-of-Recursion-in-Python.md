@@ -2,7 +2,7 @@
 layout: post
 title: Mastering the Art of Recursion in Python
 thumbnail-img: assets/img/Asajk.jpg
-share-img:assets/img/Asajk.jpg
+share-img: assets/img/Asajk.jpg
 comments: true
 tags: ['Python', 'Recursion', 'Programming', 'Algorithms']
 author: Asahluma Tyika
