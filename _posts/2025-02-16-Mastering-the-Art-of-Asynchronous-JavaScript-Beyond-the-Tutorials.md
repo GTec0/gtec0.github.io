@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mastering the Art of Asynchronous JavaScript: Beyond the Tutorials
+title: Mastering the Art of Asynchronous JavaScript Beyond the Tutorials
 comments: true
 tags: [JavaScript, Asynchronous Programming, Promises, Async/Await]
 author: Asahluma Tyika
