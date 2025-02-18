@@ -2,7 +2,7 @@
 layout: post
 title: Unlocking the Secrets of Python's asyncio Library: Beyond the Basics
 comments: true
-tags: [`asyncio`, Python, Concurrency, Async Programming]
+tags: [asyncio, Python, Concurrency, Async Programming]
 author: Asahluma Tyika
 ---
 
