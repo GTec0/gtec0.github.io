@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Conquering the Chaos of Concurrent Programming in Python
+thumbnail-img: assets/img/Batt.jpg
+share-img: assets/img/Batt.jpg
 comments: true
 tags: ['Python', 'Concurrency', 'Multithreading', 'Programming']
 author: Asahluma Tyika
