@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Conquering the Labyrinth of Python Asyncio
+thumbnail-img: assets/img/hjutt.jpg
+share-img: assets/img/hjutt.jpg
 comments: true
 tags: ['Python Asyncio', 'Concurrency', 'Asynchronous Programming', 'Python']
 author: Asahluma Tyika
