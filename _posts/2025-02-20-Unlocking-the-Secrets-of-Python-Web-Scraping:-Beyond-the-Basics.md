@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Unlocking the Secrets of Python Web Scraping: Beyond the Basics
+title: Unlocking the Secrets of Python Web Scraping Beyond the Basics
+thumbnail-img: assets/img/aTa.jpg
+share-img: assets/img/aTa.jpg
 comments: true
 tags: ['Python Web Scraping', 'Data Extraction', 'Web Scraping Techniques', 'Advanced Scraping']
 author: Asahluma Tyika
