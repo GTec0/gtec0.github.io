@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Unlocking the Secrets of Asyncio in Python
+thumbnail-img: assets/img/But.jpg
+share-img: assets/img/But.jpg
 comments: true
 tags: ['Python', 'Asyncio', 'Concurrency', 'Programming']
 author: Asahluma Tyika
