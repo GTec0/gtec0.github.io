@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mastering Regular Expressions in Python
+thumbnail-img: assets/img/Bttt.jpg
+share-img: assets/img/Bttt.jpg
 comments: true
 tags: ['Python', 'Regex', 'Regular Expressions', 'Programming']
 author: Asahluma Tyika
