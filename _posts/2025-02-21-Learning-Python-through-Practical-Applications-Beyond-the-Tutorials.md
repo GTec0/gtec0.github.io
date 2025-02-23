@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Learning Python through Practical Applications Beyond the Tutorials
+thumbnail-img: assets/img/aTa2.jpg
+share-img: assets/img/aTa2.jpg
 comments: true
 tags: ['Python Programming', 'Practical Python', 'Coding Projects', 'Python Applications']
 author: Asahluma Tyika
