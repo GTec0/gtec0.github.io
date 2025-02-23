@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Learning Python Web Scraping Efficiently and Ethically
+thumbnail-img: assets/img/mTm1.jpg
+share-img: assets/img/mTm1.jpg
 comments: true
 tags: ['Python', 'Web Scraping', 'Ethical Hacking', 'Data Extraction']
 author: Asahluma Tyika
