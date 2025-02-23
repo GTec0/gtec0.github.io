@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Conquering the Labyrinth of Python Web Scraping
+thumbnail-img: assets/img/mTm.jpg
+share-img: assets/img/mTm.jpg
 comments: true
 tags: ['Python Web Scraping', 'Data Extraction', 'Web Scraping Techniques', 'Python Programming']
 author: Asahluma Tyika
