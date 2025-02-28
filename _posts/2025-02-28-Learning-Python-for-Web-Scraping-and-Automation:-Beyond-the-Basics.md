@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning Python for Web Scraping and Automation: Beyond the Basics
+title: Learning Python for Web Scraping and Automation Beyond the Basics
 comments: true
 tags: ['Python', 'Web Scraping', 'Automation', 'Advanced Python']
 author: Asahluma Tyika
