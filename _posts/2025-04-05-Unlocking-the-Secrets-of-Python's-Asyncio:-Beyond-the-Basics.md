@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unlocking the Secrets of Python's Asyncio: Beyond the Basics
+title: Unlocking the Secrets of Python's Asyncio Beyond the Basics
 comments: true
 tags: ['Python Asyncio', 'Asynchronous Programming', 'Concurrency', 'Python']
 author: Asahluma Tyika
