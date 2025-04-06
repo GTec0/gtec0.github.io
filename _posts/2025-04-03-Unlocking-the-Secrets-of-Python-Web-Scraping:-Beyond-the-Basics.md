@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unlocking the Secrets of Python Web Scraping: Beyond the Basics
+title: Unlocking the Secrets of Python Web Scraping Beyond the Basics
 comments: true
 tags: ['Python Web Scraping', 'Web Scraping Tutorial', 'Advanced Web Scraping', 'Python Programming']
 author: Asahluma Tyika
