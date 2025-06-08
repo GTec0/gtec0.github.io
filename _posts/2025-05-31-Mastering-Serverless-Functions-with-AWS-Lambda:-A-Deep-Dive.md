@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mastering Serverless Functions with AWS Lambda: A Deep Dive
+title: Mastering Serverless Functions with AWS Lambda, A Deep Dive
 comments: true
 tags: [AWS Lambda, Serverless, Cloud Computing,  Deep Dive]
 author: Asahluma Tyika
