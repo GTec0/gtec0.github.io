@@ -36,7 +36,7 @@ navbar-links:
 avatar: "https://avatars.githubusercontent.com/u/196619981?s=400&u=20b10ec8171dca5a5c8e0f994018297c64280a1e&v=4"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
