@@ -2,6 +2,8 @@
 layout: post
 title: Building a Secure Node.js API with JWT Authentication
 comments: true
+thumbnail-img: /assets/img/img63.png
+share-img: /assets/img/img63.png
 tags: [Node.js, JWT Authentication, API Security,  Backend Development]
 author: Asahluma Tyika
 ---
