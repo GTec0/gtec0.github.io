@@ -2,6 +2,8 @@
 layout: post
 title: Automating Your Linux System with Python and Cron
 comments: true
+thumbnail-img: /assets/img/img64.png
+share-img: /assets/img/img64.png
 tags: ['Python', 'Linux', 'Automation', 'Cron']
 author: Asahluma Tyika
 ---
