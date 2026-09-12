@@ -3,8 +3,10 @@ layout: post
 title: "Regex, Explained Simply: A Beginner's Guide to Pattern Matching"
 date: 2026-09-12
 categories: []
-tags: ["regex", "pattern maatching"]
-image: /assets/images/banners/regex-explained-simply-a-beginners-guide-to-pattern-matching-banner.png
+tags: ["regex", "pattern matching"]
+thumbnail-img: /assets/images/banners/regex-explained-simply-a-beginners-guide-to-pattern-matching-banner.png
+share-img: /assets/images/banners/regex-explained-simply-a-beginners-guide-to-pattern-matching-banner.png
+author: Asahluma Tyika
 ---
 
 If you've ever seen a string of symbols like `^\S+@\S+\.\S+$` in someone's code and quietly closed the tab, this post is for you. Regular expressions (regex) look intimidating, but they're built from a small set of simple ideas stacked together. Once you know the eight or so symbols that do most of the work, you can read almost any regex you'll encounter in the wild.
