@@ -7,8 +7,6 @@ tags: [Linux, Terminal, Bash, Command Line, Beginner]
 author: Asahluma Tyika
 ---
 
-# Linux `ls` Command Explained
-
 When working with Linux, you will often need to see what files and folders are inside a directory. Instead of opening a file manager, you can use the terminal to inspect your files quickly.
 
 One of the most useful commands for this is `ls`.
