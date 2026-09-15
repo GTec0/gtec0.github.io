@@ -1,8 +1,6 @@
 ---
 layout: post
 title: How to Write Clear and Useful Git Commit messages
-thumbnail-img: 
-share-img: 
 tags: [Git, GitHub, Version Control, Programming, Developer Tips]
 author: Asahluma Tyika
 ---
