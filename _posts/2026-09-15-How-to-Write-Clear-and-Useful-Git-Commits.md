@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "How to Write Clear and Useful Git Commits"
+title: "How to Write Clear and Useful Git Commit Messages"
 description: "Learn how to write better Git commit messages using clear descriptions, conventional commit types, and practical examples."
 tags: [Git, GitHub, Version Control, Programming, Developer Tips]
 ---
-
-# Git Commit Messages: How to Write Clear and Useful Commits
 
 When working on a software project, you will eventually need to save your changes using Git.
 
