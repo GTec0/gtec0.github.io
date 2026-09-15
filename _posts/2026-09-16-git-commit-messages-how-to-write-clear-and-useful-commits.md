@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Commit Messages: How to Write Clear and Useful Commits
+title: Git Commit Message, How to Write Clear and Useful Commits
 thumbnail-img: 
 share-img: 
 tags: [Git, GitHub, Version Control, Programming, Developer Tips]
