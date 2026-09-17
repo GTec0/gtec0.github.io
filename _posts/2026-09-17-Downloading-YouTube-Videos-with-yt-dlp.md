@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Downloading YouTube Videos with yt-dlp
+title: "How to download YouTube Videos with yt-dlp"
 thumbnail-img: /assets/img/ytdlp_yt_download_KW6dh7x.jpeg
 share-img: /assets/img/ytdlp_yt_download_KW6dh7x.jpeg
-tags: [Youtube,ytdlp,Linux,automation]
+tags: ['Youtube', 'ytdlp', 'Linux', 'automation']
 author: Asahluma Tyika
 ---
 
