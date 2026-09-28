@@ -31,6 +31,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "trending",
       "at": "2026-09-28T22:24:12.772933Z"
+    },
+    {
+      "topic": "Linux find command: 10 practical examples for beginners",
+      "file": "2026-09-28-linux-find-command-10-practical-examples-for-beginners.md",
+      "url": "https://gtec0.github.io/2026-09-28-linux-find-command-10-practical-examples-for-beginners/",
+      "provider": "template(free,offline)",
+      "source": "evergreen",
+      "at": "2026-09-28T22:53:09.369470Z"
     }
   ]
 }
