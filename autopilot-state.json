@@ -7,6 +7,14 @@
       "provider": "template(free,offline)",
       "source": "trending",
       "at": "2026-09-28T21:42:03.748300Z"
+    },
+    {
+      "topic": "Jeff \u2013 Jev-compatible 0.8B decision models, trained at home, ~30 ms \u2014 explained with a hands-on example",
+      "file": "2026-09-28-jeff-jev-compatible-0-8b-decision-models-trained-at-home-30-ms-explain.md",
+      "url": "https://gtec0.github.io/2026-09-28-jeff-jev-compatible-0-8b-decision-models-trained-at-home-30-ms-explain/",
+      "provider": "template(free,offline)",
+      "source": "trending",
+      "at": "2026-09-28T21:59:18.214117Z"
     }
   ]
 }
