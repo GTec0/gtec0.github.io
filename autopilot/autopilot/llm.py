@@ -37,7 +37,11 @@ Body only, no front matter.
 
 def _http_post_json(url: str, payload: dict, headers: dict, timeout=90) -> dict:
     data = json.dumps(payload).encode()
-    req = urllib.request.Request(url, data=data, headers={**headers, "Content-Type": "application/json"})
+    # NOTE: Groq sits behind Cloudflare, which 403s (error 1010) clients with
+    # no/recognizable User-Agent — e.g. Python-urllib. Always identify ourselves.
+    headers = {"User-Agent": "gtec-autopilot/1.0 (+https://gtec0.github.io)",
+               **headers, "Content-Type": "application/json"}
+    req = urllib.request.Request(url, data=data, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8", "replace"))
 
