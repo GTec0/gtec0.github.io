@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import re
 import urllib.request
+import urllib.error
 
 
 SYSTEM_STYLE = (
@@ -41,6 +42,23 @@ def _http_post_json(url: str, payload: dict, headers: dict, timeout=90) -> dict:
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
+def _warn(provider: str, e: Exception) -> None:
+    """Log WHY a provider failed. Never prints credentials (key redacted)."""
+    detail = ""
+    try:
+        if isinstance(e, urllib.error.HTTPError):
+            try:
+                detail = e.read().decode("utf-8", "replace")[:400]
+            except Exception:
+                pass
+    except Exception:
+        pass
+    msg = f"{type(e).__name__}: {e} {detail}".strip()
+    msg = re.sub(r"key=[A-Za-z0-9_\-]+", "key=***", msg)
+    msg = re.sub(r"Bearer [A-Za-z0-9_.\-]+", "Bearer ***", msg)
+    print(f"[llm:{provider}] FAILED: {msg[:400]}", flush=True)
+
+
 def gemini_generate(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
@@ -50,7 +68,8 @@ def gemini_generate(key: str, model: str, topic: str, angle: str, tags: list, lo
         res = _http_post_json(url, body, {})
         parts = res["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts).strip() or None
-    except Exception:
+    except Exception as e:
+        _warn("gemini", e)
         return None
 
 
@@ -62,7 +81,8 @@ def groq_generate(key: str, model: str, topic: str, angle: str, tags: list, lo: 
         res = _http_post_json("https://api.groq.com/openai/v1/chat/completions", body,
                               {"Authorization": f"Bearer {key}"})
         return res["choices"][0]["message"]["content"].strip() or None
-    except Exception:
+    except Exception as e:
+        _warn("groq", e)
         return None
 
 
@@ -72,7 +92,8 @@ def ollama_generate(host: str, model: str, topic: str, angle: str, tags: list, l
                 "prompt": POST_PROMPT.format(topic=topic, angle=angle, tags=', '.join(tags), min_words=lo, max_words=hi)}
         res = _http_post_json(f"{host.rstrip('/')}/api/generate", body, {})
         return (res.get("response") or "").strip() or None
-    except Exception:
+    except Exception as e:
+        _warn("ollama", e)
         return None
 
 
@@ -218,10 +239,14 @@ def generate_post(cfg: dict, topic: dict) -> tuple[str, str]:
     hi = cfg["content"].get("max_words", 1600)
     env = cfg["_env"]
     t, a, tg = topic["topic"], topic.get("angle", ""), topic.get("tags", [])
+    print(f"[llm] keys: gemini={'set' if env['gemini_key'] else 'MISSING'} "
+          f"groq={'set' if env['groq_key'] else 'missing'} "
+          f"ollama={'set' if env['ollama_host'] else 'missing'}", flush=True)
     if env["gemini_key"]:
         txt = gemini_generate(env["gemini_key"], env["gemini_model"], t, a, tg, lo, hi)
         if txt and len(txt.split()) > 300:
             return txt, f"gemini:{env['gemini_model']}"
+        print("[llm] gemini unusable, trying next provider...", flush=True)
     if env["groq_key"]:
         txt = groq_generate(env["groq_key"], env["groq_model"], t, a, tg, lo, hi)
         if txt and len(txt.split()) > 300:
