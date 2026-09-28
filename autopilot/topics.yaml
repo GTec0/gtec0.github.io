@@ -1,5 +1,6 @@
 # Evergreen backlog — autopilot picks the next unused one (tracked in state.json).
-# Add your own ideas here any time; trending topics are prepended automatically.
+# Add your own ideas here any time. Trending is OFF by default (config.yaml),
+# so this list is the content plan: practical, everyday tips and tutorials.
 evergreen:
   - topic: "Linux find command: 10 practical examples for beginners"
     tags: ["Linux", "Terminal", "Bash", "Beginner"]
@@ -37,3 +38,105 @@ evergreen:
   - topic: "JavaScript fetch vs axios: handling APIs and errors"
     tags: ["JavaScript", "API", "Programming"]
     angle: "Side-by-side code + error handling patterns"
+  - topic: "Linux grep in 10 practical examples"
+    tags: ["Linux", "Terminal", "Beginner"]
+    angle: "Real log-search and code-search scenarios, -r -i -n flags"
+  - topic: "curl in 10 examples: test any API from the terminal"
+    tags: ["Linux", "API", "Networking", "Beginner"]
+    angle: "GET/POST/headers/auth with httpbin.org demos"
+  - topic: "tar, zip and friends: compress anything on Linux"
+    tags: ["Linux", "Terminal", "Beginner"]
+    angle: "Side-by-side recipes for tar.gz, zip, backup restores"
+  - topic: "rsync: back up and sync files without the fear"
+    tags: ["Linux", "Backup", "Developer Tips"]
+    angle: "Dry-run first, 5 everyday recipes, SSH remote sync"
+  - topic: "jq crash course: slice JSON from the command line"
+    tags: ["Linux", "API", "Developer Tips"]
+    angle: "Pipe curl into jq, 8 filters you will reuse weekly"
+  - topic: "Git branches without fear: branch, merge, resolve conflicts"
+    tags: ["Git", "GitHub", "Beginner"]
+    angle: "Toy repo walkthrough ending in a clean merge"
+  - topic: "Fix any Git mess: detached HEAD, bad commits, wrong branch"
+    tags: ["Git", "Developer Tips"]
+    angle: "Panic-driven rescue recipes with reflog safety net"
+  - topic: "cron in 15 minutes: schedule anything on Linux"
+    tags: ["Linux", "automation", "Beginner"]
+    angle: "Crontab syntax chart + 3 real jobs with logging"
+  - topic: "systemd for beginners: services, timers and logs"
+    tags: ["Linux", "DevOps"]
+    angle: "Write a service file, read logs with journalctl"
+  - topic: "Vim survival guide: the 20 keys you actually need"
+    tags: ["Linux", "Terminal", "Developer Tips"]
+    angle: "Cheat-sheet + 5-minute editing drill"
+  - topic: "Nano to Vim: editing files on a server without panic"
+    tags: ["Linux", "Beginner"]
+    angle: "Save/quit/exit tricks for both editors"
+  - topic: "Python pip and requirements: stop breaking your system Python"
+    tags: ["Python", "Beginner"]
+    angle: "venv + pip freeze workflow, --break-system-packages explained"
+  - topic: "Python f-strings and formatting: 12 patterns you will reuse"
+    tags: ["Python", "Programming", "Beginner"]
+    angle: "Copy-paste patterns with before/after output"
+  - topic: "Python error handling that actually helps: try/except done right"
+    tags: ["Python", "Programming"]
+    angle: "Bare-except horror stories + logging pattern"
+  - topic: "Read and write files in Python without the gotchas"
+    tags: ["Python", "Beginner"]
+    angle: "with-blocks, paths, CSV and JSON recipes"
+  - topic: "Environment variables in Python and Bash: configure like a pro"
+    tags: ["Python", "Bash", "DevOps"]
+    angle: ".env files, os.getenv defaults, secrets safety"
+  - topic: "SSH like a pro: config file, jump hosts and tunnels"
+    tags: ["Linux", "Networking", "Developer Tips"]
+    angle: "~/.ssh/config recipes + -L tunnel demo"
+  - topic: "scp and sftp: move files to your server the easy way"
+    tags: ["Linux", "Beginner"]
+    angle: "5 transfer recipes with progress and resume notes"
+  - topic: "Check disk space like a detective: df, du and ncdu"
+    tags: ["Linux", "Terminal", "Beginner"]
+    angle: "Find what's eating your disk in 5 commands"
+  - topic: "Linux processes: ps, kill, htop and background jobs"
+    tags: ["Linux", "Beginner"]
+    angle: "Find a stuck process, kill safely, use & and jobs"
+  - topic: "Ports demystified: ss, lsof and talking to localhost"
+    tags: ["Linux", "Networking", "Beginner"]
+    angle: "'Address already in use' rescue + localhost explainer"
+  - topic: "Reading logs on Linux: tail, less, grep and journalctl"
+    tags: ["Linux", "Beginner", "Developer Tips"]
+    angle: "Follow a live log, filter errors, 6 go-to commands"
+  - topic: "ffmpeg in 10 recipes: convert, trim and compress media"
+    tags: ["Linux", "Developer Tips"]
+    angle: "Copy-paste recipes, no codec theory overload"
+  - topic: "Wi-Fi from the Linux terminal: nmcli essentials"
+    tags: ["Linux", "Networking"]
+    angle: "Connect, scan, hotspot in 5 commands"
+  - topic: "Markdown in 15 minutes: write docs and READMEs that shine"
+    tags: ["Developer Tips", "Beginner"]
+    angle: "Everyday syntax with rendered examples, GitHub flavor"
+  - topic: "GitHub README that gets you hired: structure + live example"
+    tags: ["GitHub", "Developer Tips"]
+    angle: "Anatomy of a good README with badges and screenshots"
+  - topic: "Semantic versioning and changelogs without the ceremony"
+    tags: ["Git", "Developer Tips"]
+    angle: "MAJOR.MINOR.PATCH with real release examples"
+  - topic: "JSON vs YAML vs TOML: which config format when"
+    tags: ["Programming", "DevOps", "Beginner"]
+    angle: "Same config in 3 formats, pitfalls of each"
+  - topic: "Regular expressions part 2: groups, alternation and real validation"
+    tags: ["Python", "JavaScript", "Programming"]
+    angle: "Follow-up patterns: email, phone, capture groups"
+  - topic: "Python requests: call any API in 20 lines"
+    tags: ["Python", "API", "Beginner"]
+    angle: "GET/POST/timeouts/errors against a public test API"
+  - topic: "Bash one-liners that save your afternoon: pipes, xargs and friends"
+    tags: ["Bash", "Linux", "Developer Tips"]
+    angle: "10 composable one-liners with plain-English breakdowns"
+  - topic: "Aliases and functions: customize your terminal once, benefit daily"
+    tags: ["Bash", "Linux", "Beginner"]
+    angle: ".bashrc recipes with reload-safe pattern"
+  - topic: "How to ask for help: logs, minimal reproductions and error messages"
+    tags: ["Developer Tips", "Beginner"]
+    angle: "Template for questions that get answered fast"
+  - topic: "Your first pull request: fork, branch, PR, review"
+    tags: ["Git", "GitHub", "Beginner"]
+    angle: "End-to-end on a toy repo with etiquette tips"

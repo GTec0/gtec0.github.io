@@ -38,7 +38,10 @@ topics:
   evergreen_file: "topics.yaml"
   # live trending sources (no keys needed, best-effort; failures fall back to evergreen)
   trending:
-    enabled: true
+    # OFF by default: news headlines make hype-slop ("Startup X joins Y" tutorials).
+    # Everyday practical tips come from the evergreen backlog below instead.
+    # Turn on only if you want news-pegged posts back.
+    enabled: false
     sources:
       - "hackernews"      # https://hacker-news.firebaseio.com
       - "devto"           # https://dev.to/api/articles

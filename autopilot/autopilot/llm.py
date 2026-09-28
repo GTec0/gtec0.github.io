@@ -260,11 +260,19 @@ def generate_post(cfg: dict, topic: dict) -> tuple[str, str]:
 
 def extract_excerpt_and_diagrams(body: str) -> tuple[str, list[str], str]:
     excerpts = re.findall(r"<!--\s*EXCERPT:\s*(.*?)\s*-->", body, re.S)
-    diagrams = re.findall(r"<!--\s*DIAGRAM:\s*(.*?)\s*-->", body, re.S)
+    raw_diagrams = re.findall(r"<!--\s*DIAGRAM:\s*(.*?)\s*-->", body, re.S)
+    # dedupe: LLMs often repeat the same diagram idea twice — keep first occurrence
+    seen, diagrams = set(), []
+    for d in raw_diagrams:
+        k = d.strip().lower()
+        if k and k not in seen:
+            seen.add(k)
+            diagrams.append(d.strip())
+    diagrams = diagrams[:2]
     clean = re.sub(r"<!--\s*(EXCERPT|DIAGRAM):.*?-->", "", body, flags=re.S)
     excerpt = excerpts[0].strip()[:160] if excerpts else ""
     if not excerpt:
         para = re.sub(r"[#>*`\-]", "", clean).split("\n\n")
         para = [p.strip().replace("\n", " ") for p in para if len(p.strip()) > 60]
         excerpt = (para[0][:157] + "...") if para else ""
-    return excerpt, [d.strip() for d in diagrams][:2], re.sub(r"\n{3,}", "\n\n", clean).strip() + "\n"
+    return excerpt, diagrams, re.sub(r"\n{3,}", "\n\n", clean).strip() + "\n"

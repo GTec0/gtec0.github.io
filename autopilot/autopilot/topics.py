@@ -93,7 +93,7 @@ def title_similar(a: str, b: str) -> float:
 # "— explained with a hands-on example" suffix on every post.
 _TRENDING_WRAPPERS = [
     "{t} — a hands-on walkthrough",
-    "Trying {t}: a practical beginner's guide",
+    "{t}: a practical beginner's guide",
     "{t}: what it is and how to use it",
     "Getting started with {t}",
     "{t} explained with runnable examples",
@@ -112,11 +112,7 @@ def to_tutorial_title(t: str) -> str:
                        "try ", "trying ", "10 ", "5 ")):
         return s  # already tutorial-shaped — leave it alone
     i = hashlib.md5(s.encode()).digest()[0] % len(_TRENDING_WRAPPERS)
-    pat = _TRENDING_WRAPPERS[i]
-    # wrappers that embed the headline mid-sentence read better lowercased
-    if pat.startswith(("Trying ", "Getting started with ")) and s[:1].isupper():
-        s = s[:1].lower() + s[1:]
-    return pat.format(t=s)
+    return _TRENDING_WRAPPERS[i].format(t=s)
 
 
 def pick_topic(cfg: dict, state_path: Path, force_topic: str | None = None) -> dict:
