@@ -87,6 +87,38 @@ def title_similar(a: str, b: str) -> float:
     return len(wa & wb) / max(len(wa), len(wb))
 
 
+# Varied framings for trending headlines. The wrapper is picked deterministically
+# (md5 of the title) so the same headline always maps to the same post title,
+# but different headlines get different framings — no more identical
+# "— explained with a hands-on example" suffix on every post.
+_TRENDING_WRAPPERS = [
+    "{t} — a hands-on walkthrough",
+    "Trying {t}: a practical beginner's guide",
+    "{t}: what it is and how to use it",
+    "Getting started with {t}",
+    "{t} explained with runnable examples",
+    "{t}",
+]
+
+
+def to_tutorial_title(t: str) -> str:
+    """Turn a raw headline into a tutorial title without repetitive slop."""
+    import hashlib
+    s = re.sub(r"^(show|ask|tell|launch) hn:\s*", "", t.strip(), flags=re.I).rstrip(".")
+    if len(s) > 110:
+        s = s[:107].rsplit(" ", 1)[0]
+    low = s.lower()
+    if low.startswith(("how to", "how ", "getting started", "build ", "learn ",
+                       "try ", "trying ", "10 ", "5 ")):
+        return s  # already tutorial-shaped — leave it alone
+    i = hashlib.md5(s.encode()).digest()[0] % len(_TRENDING_WRAPPERS)
+    pat = _TRENDING_WRAPPERS[i]
+    # wrappers that embed the headline mid-sentence read better lowercased
+    if pat.startswith(("Trying ", "Getting started with ")) and s[:1].isupper():
+        s = s[:1].lower() + s[1:]
+    return pat.format(t=s)
+
+
 def pick_topic(cfg: dict, state_path: Path, force_topic: str | None = None) -> dict:
     """Returns {topic, tags, angle, source}."""
     root = Path(cfg["blog"]["repo"])
@@ -110,7 +142,9 @@ def pick_topic(cfg: dict, state_path: Path, force_topic: str | None = None) -> d
     if cfg.get("topics", {}).get("trending", {}).get("enabled", True):
         try:
             for t in trending_candidates(cfg["topics"]["trending"].get("max_candidates", 15)):
-                tutorial = t if t.lower().startswith(("how", "getting", "build")) else f"{t} — explained with a hands-on example"
+                if t.strip().endswith("?"):
+                    continue  # question threads make poor tutorials — skip
+                tutorial = to_tutorial_title(t)
                 if not is_dup(tutorial):
                     return {"topic": tutorial, "tags": ["Programming", "Developer Tips"],
                             "angle": "News-pegged explainer: what happened + hands-on tutorial", "source": "trending"}

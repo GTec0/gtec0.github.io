@@ -33,7 +33,7 @@ def load_config(path: str | Path | None = None) -> dict:
     cfg["blog"] = blog
     cfg["_env"] = {
         "gemini_key": os.getenv("GEMINI_API_KEY", ""),
-        "gemini_model": os.getenv("GEMINI_MODEL", "gemini-2.0-flash"),
+        "gemini_model": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
         "groq_key": os.getenv("GROQ_API_KEY", ""),
         "groq_model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
         "ollama_host": os.getenv("OLLAMA_HOST", ""),
