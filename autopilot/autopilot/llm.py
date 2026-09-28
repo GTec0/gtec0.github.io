@@ -233,8 +233,13 @@ Happy hacking — and remember: inspect first, script it, then automate. 🔧
 """
 
 
-def generate_post(cfg: dict, topic: dict) -> tuple[str, str]:
-    """Returns (markdown_body, provider_name)."""
+def generate_post(cfg: dict, topic: dict, allow_template: bool = False) -> tuple[str | None, str]:
+    """Returns (markdown_body, provider_name).
+
+    If every real provider fails and allow_template is False, returns (None,
+    reason) — the caller must abort WITHOUT publishing. The offline template
+    is only for local dry-runs, never for real posts.
+    """
     lo = cfg["content"].get("min_words", 900)
     hi = cfg["content"].get("max_words", 1600)
     env = cfg["_env"]
@@ -255,7 +260,11 @@ def generate_post(cfg: dict, topic: dict) -> tuple[str, str]:
         txt = ollama_generate(env["ollama_host"], env["ollama_model"], t, a, tg, lo, hi)
         if txt and len(txt.split()) > 300:
             return txt, f"ollama:{env['ollama_model']}"
-    return template_generate(t, a, tg), "template(free,offline)"
+        print("[llm] ollama unusable, no providers left.", flush=True)
+    if allow_template:
+        print("[llm] FALLBACK: using offline template (testing only — never for real posts).", flush=True)
+        return template_generate(t, a, tg), "template(free,offline)"
+    return None, "all-providers-failed"
 
 
 def extract_excerpt_and_diagrams(body: str) -> tuple[str, list[str], str]:

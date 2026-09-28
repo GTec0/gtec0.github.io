@@ -8,6 +8,7 @@ Usage:
   python main.py --dry-run            # generate to ./preview/ (POST.md + SHARE.txt + banners)
   python main.py --topic "Your title" # force a topic
   python main.py                       # fully-automatic: pick topic -> generate -> QA -> write files
+                                 # (aborts with exit 4 if all AI providers fail — no filler ever published)
 """
 from __future__ import annotations
 import argparse
@@ -30,6 +31,9 @@ def parse_args():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--topic", default=None)
+    ap.add_argument("--allow-template", action="store_true",
+                    help="permit the offline template fallback (local testing only). "
+                         "--dry-run implies this; real runs fail instead of publishing filler.")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
     return ap.parse_args()
 
@@ -75,7 +79,14 @@ def main() -> int:
     print(f"[topic:{topic['source']}] {topic['topic']}")
 
     # ── 2. text ──
-    body_raw, provider = llm.generate_post(cfg, topic)
+    body_raw, provider = llm.generate_post(cfg, topic,
+                                           allow_template=a.allow_template or a.dry_run)
+    if body_raw is None:
+        # ALL providers failed: publish NOTHING. Non-zero exit turns the
+        # Actions run red — owner notices the missing post and reads the log.
+        print(f"[llm] FATAL: {provider} — no post written, nothing committed. "
+              f"Check the [llm:*] FAILED lines above (keys? quota? model retired?).")
+        return 4
     excerpt, diagrams, body = llm.extract_excerpt_and_diagrams(body_raw)
     print(f"[llm] provider={provider} words={len(body.split())} diagrams={len(diagrams)}")
 
