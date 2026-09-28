@@ -23,6 +23,14 @@
       "provider": "template(free,offline)",
       "source": "trending",
       "at": "2026-09-28T22:11:25.457847Z"
+    },
+    {
+      "topic": "Trying world Labs Is Joining AMD: a practical beginner's guide",
+      "file": "2026-09-28-trying-world-labs-is-joining-amd-a-practical-beginner-s-guide.md",
+      "url": "https://gtec0.github.io/2026-09-28-trying-world-labs-is-joining-amd-a-practical-beginner-s-guide/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "trending",
+      "at": "2026-09-28T22:24:12.772933Z"
     }
   ]
 }
