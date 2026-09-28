@@ -1,0 +1,62 @@
+# ── Blog identity (matches your existing beautiful-jekyll front matter) ──
+blog:
+  url: "https://gtec0.github.io"
+  author: "Asahluma Tyika"
+  posts_dir: "_posts"
+  banners_dir: "assets/images/banners"
+  layout: "post"
+
+# ── Content strategy ──
+content:
+  niches: ["Linux", "Python", "Git", "Bash", "Networking", "Docker", "JavaScript", "Developer Tips"]
+  levels: ["Beginner", "Intermediate"]
+  # length target for generated markdown body (words)
+  min_words: 900
+  max_words: 1600
+  # must-have sections the LLM/template is forced to include
+  required_sections:
+    - "What / Why (plain-English intro)"
+    - "Hands-on tutorial with code blocks"
+    - "Common mistakes / troubleshooting"
+    - "Try it yourself (exercise)"
+    - "What's next"
+  code_style: "All code blocks fenced with language tags. Prefer runnable Linux/Python/Bash examples."
+
+# ── Images (all free) ──
+images:
+  banner_width: 1200
+  banner_height: 630
+  # 1) try Pollinations free URL (no key), 2) fall back to Pillow gradient + title
+  provider_order: ["pollinations", "pillow"]
+  pollinations_model: "flux"
+  # diagrams are generated locally with matplotlib from AI-written specs — always free
+  max_diagrams: 2
+
+# ── Topics ──
+topics:
+  # evergreen backlog (used round-robin when trending finds nothing new)
+  evergreen_file: "topics.yaml"
+  # live trending sources (no keys needed, best-effort; failures fall back to evergreen)
+  trending:
+    enabled: true
+    sources:
+      - "hackernews"      # https://hacker-news.firebaseio.com
+      - "devto"           # https://dev.to/api/articles
+      - "github_trending" # scraped github.com/trending
+    max_candidates: 15
+
+# ── QA gates (fully-automatic mode still blocks bad posts) ──
+qa:
+  min_words: 700
+  max_title_len: 90
+  require_code_block: true
+  ban_phrases: ["as an AI", "in conclusion", "lorem ipsum"]
+  similarity_block: 0.55   # block if >55% similar to an existing post
+
+# ── Social captions ──
+social:
+  site_name: "Code easier! | GTec"
+  hashtags: ["#programming", "#coding", "#linux", "#python", "#techtips", "#gtec"]
+  fb_max: 2000
+  ig_max: 1500
+  threads_max: 500

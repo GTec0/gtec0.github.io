@@ -1,0 +1,39 @@
+# Evergreen backlog — autopilot picks the next unused one (tracked in state.json).
+# Add your own ideas here any time; trending topics are prepended automatically.
+evergreen:
+  - topic: "Linux find command: 10 practical examples for beginners"
+    tags: ["Linux", "Terminal", "Bash", "Beginner"]
+    angle: "Hands-on tutorial, each example runnable, warn about -delete safety"
+  - topic: "Python virtual environments explained: venv vs conda vs uv"
+    tags: ["Python", "Beginner", "Developer Tips"]
+    angle: "Beginner-friendly comparison with setup steps"
+  - topic: "Git stash, reset and revert without losing work"
+    tags: ["Git", "GitHub", "Version Control"]
+    angle: "Common-mistake driven, show recovery commands"
+  - topic: "How HTTP status codes actually work (with curl demos)"
+    tags: ["Networking", "API", "Beginner"]
+    angle: "Use curl against httpbin.org, diagram of request/response"
+  - topic: "Bash scripting crash course: loops, ifs and functions in one post"
+    tags: ["Bash", "Linux", "automation"]
+    angle: "Single runnable script built up section by section"
+  - topic: "Docker in 15 minutes: images vs containers vs volumes"
+    tags: ["Docker", "DevOps", "Beginner"]
+    angle: "Diagram-heavy explainer + hands-on commands"
+  - topic: "SSH keys and config: stop typing passwords"
+    tags: ["Linux", "GitHub", "Developer Tips"]
+    angle: "Step-by-step with troubleshooting (permissions, ssh -T test)"
+  - topic: "Python list comprehensions vs loops: when to use which"
+    tags: ["Python", "Programming"]
+    angle: "Benchmarks + readability guidance"
+  - topic: "chmod and file permissions explained with octal chart"
+    tags: ["Linux", "Terminal", "Beginner"]
+    angle: "Visual chart + 5 real scenarios"
+  - topic: "How DNS works: from domain to IP with dig"
+    tags: ["Networking", "Linux"]
+    angle: "Diagram of resolution chain + dig examples"
+  - topic: "tmux for beginners: multiplex your terminal"
+    tags: ["Linux", "Terminal", "Developer Tips"]
+    angle: "Cheat-sheet style with session demo"
+  - topic: "JavaScript fetch vs axios: handling APIs and errors"
+    tags: ["JavaScript", "API", "Programming"]
+    angle: "Side-by-side code + error handling patterns"

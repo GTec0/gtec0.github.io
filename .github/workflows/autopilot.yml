@@ -1,0 +1,56 @@
+name: autopilot
+
+# Post-ONLY automation: TWICE A DAY (06:00 + 18:00 UTC). Generates a tutorial
+# post + banner + diagrams, commits them. YOU share the link manually using the
+# captions printed in the job log. No social automation, no tokens besides the
+# optional free GEMINI_API_KEY. Run manually any time.
+on:
+  schedule:
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Force a topic (optional)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install autopilot deps
+        run: |
+          pip install -r autopilot/requirements.txt
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core > /dev/null
+
+      # Layout in the blog repo: this whole generator lives in autopilot/
+      # (i.e. blog repo contains autopilot/main.py, autopilot/autopilot/...)
+      - name: Generate post (free AI + fallback, never fails silently)
+        env:
+          BLOG_URL: https://gtec0.github.io
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MANUAL_TOPIC: ${{ inputs.topic }}
+        run: |
+          ARGS=""
+          [ -n "$MANUAL_TOPIC" ] && ARGS="$ARGS --topic $MANUAL_TOPIC"
+          python autopilot/main.py $ARGS
+          echo "===== SHARE KIT (copy-paste these yourself) ====="
+          cat autopilot/SHARE.txt
+
+      - name: Commit new post + images
+        run: |
+          git config user.name "gtec-autopilot"
+          git config user.email "autopilot@gtec0.github.io"
+          git add _posts/ assets/images/banners/ autopilot/SHARE.txt autopilot-state.json || true
+          git diff --cached --quiet && echo "nothing new" || git commit -m "autopilot: new tutorial $(date +%F)"
+          git push
