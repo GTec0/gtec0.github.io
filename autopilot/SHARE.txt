@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Python virtual environments explained: venv vs conda vs uv
-Link: https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-virtual-environments-explained-venv-vs-conda-vs-uv-banner.png
+MANUAL SHARE KIT — Git stash, reset and revert without losing work
+Link: https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/git-stash-reset-and-revert-without-losing-work-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Python virtual environments explained: venv vs conda vs uv
+🚀 New tutorial: Git stash, reset and revert without losing work
 
-Learn when to use Python's built‑in venv, Conda, or the ultra‑fast uv for clean, reproducible projects.
+Master git stash, reset, and revert without the fear of lost code. Learn how these commands alter state, handle mistakes, and rescue dropped commits.
 
-👉 Read it here: https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
+👉 Read it here: https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
 
-#python #beginner #developertips #programming #coding #linux
+#git #github #versioncontrol #programming #coding #linux
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Python virtual environments explained: venv vs conda vs uv
+✨ Git stash, reset and revert without losing work
 
-Learn when to use Python's built‑in venv, Conda, or the ultra‑fast uv for clean, reproducible projects.
+Master git stash, reset, and revert without the fear of lost code. Learn how these commands alter state, handle mistakes, and rescue dropped commits.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
+🔗 Link in bio / https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
 .
 .
 .
-#python #beginner #developertips #programming #coding #linux
+#git #github #versioncontrol #programming #coding #linux
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Python virtual environments explained: venv vs conda vs uv 👇
-https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
-#python #beginner #developertips
+New on GTec: Git stash, reset and revert without losing work 👇
+https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
+#git #github #versioncontrol

@@ -47,6 +47,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-09-29T00:51:35.541798Z"
+    },
+    {
+      "topic": "Git stash, reset and revert without losing work",
+      "file": "2026-09-29-git-stash-reset-and-revert-without-losing-work.md",
+      "url": "https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-09-29T01:06:49.260427Z"
     }
   ]
 }
