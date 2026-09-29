@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Linux find command: 10 practical examples for beginners
-Link: https://gtec0.github.io/2026-09-28-linux-find-command-10-practical-examples-for-beginners/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/linux-find-command-10-practical-examples-for-beginners-banner.png
+MANUAL SHARE KIT — Python virtual environments explained: venv vs conda vs uv
+Link: https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-virtual-environments-explained-venv-vs-conda-vs-uv-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Linux find command: 10 practical examples for beginners
+🚀 New tutorial: Python virtual environments explained: venv vs conda vs uv
 
-Linux find command: 10 practical examples for beginners — a plain-English, hands-on tutorial with runnable examples.
+Learn when to use Python's built‑in venv, Conda, or the ultra‑fast uv for clean, reproducible projects.
 
-👉 Read it here: https://gtec0.github.io/2026-09-28-linux-find-command-10-practical-examples-for-beginners/
+👉 Read it here: https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
 
-#linux #terminal #bash #beginner #programming #coding
+#python #beginner #developertips #programming #coding #linux
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Linux find command: 10 practical examples for beginners
+✨ Python virtual environments explained: venv vs conda vs uv
 
-Linux find command: 10 practical examples for beginners — a plain-English, hands-on tutorial with runnable examples.
+Learn when to use Python's built‑in venv, Conda, or the ultra‑fast uv for clean, reproducible projects.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-28-linux-find-command-10-practical-examples-for-beginners/
+🔗 Link in bio / https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
 .
 .
 .
-#linux #terminal #bash #beginner #programming #coding
+#python #beginner #developertips #programming #coding #linux
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Linux find command: 10 practical examples for beginners 👇
-https://gtec0.github.io/2026-09-28-linux-find-command-10-practical-examples-for-beginners/
-#linux #terminal #bash
+New on GTec: Python virtual environments explained: venv vs conda vs uv 👇
+https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/
+#python #beginner #developertips

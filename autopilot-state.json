@@ -39,6 +39,14 @@
       "provider": "template(free,offline)",
       "source": "evergreen",
       "at": "2026-09-28T22:53:09.369470Z"
+    },
+    {
+      "topic": "Python virtual environments explained: venv vs conda vs uv",
+      "file": "2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv.md",
+      "url": "https://gtec0.github.io/2026-09-29-python-virtual-environments-explained-venv-vs-conda-vs-uv/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-09-29T00:51:35.541798Z"
     }
   ]
 }
