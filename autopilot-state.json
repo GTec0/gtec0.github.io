@@ -55,6 +55,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-09-29T01:06:49.260427Z"
+    },
+    {
+      "topic": "How HTTP status codes actually work (with curl demos)",
+      "file": "2026-09-29-how-http-status-codes-actually-work-with-curl-demos.md",
+      "url": "https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-09-29T12:09:17.531757Z"
     }
   ]
 }

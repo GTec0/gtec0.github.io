@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Git stash, reset and revert without losing work
-Link: https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/git-stash-reset-and-revert-without-losing-work-banner.png
+MANUAL SHARE KIT — How HTTP status codes actually work (with curl demos)
+Link: https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/how-http-status-codes-actually-work-with-curl-demos-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Git stash, reset and revert without losing work
+🚀 New tutorial: How HTTP status codes actually work (with curl demos)
 
-Master git stash, reset, and revert without the fear of lost code. Learn how these commands alter state, handle mistakes, and rescue dropped commits.
+Learn how HTTP status codes work by using curl against httpbin.org, complete with diagrams, scripts, and troubleshooting tips.
 
-👉 Read it here: https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
+👉 Read it here: https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
 
-#git #github #versioncontrol #programming #coding #linux
+#networking #api #beginner #programming #coding #linux
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Git stash, reset and revert without losing work
+✨ How HTTP status codes actually work (with curl demos)
 
-Master git stash, reset, and revert without the fear of lost code. Learn how these commands alter state, handle mistakes, and rescue dropped commits.
+Learn how HTTP status codes work by using curl against httpbin.org, complete with diagrams, scripts, and troubleshooting tips.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
+🔗 Link in bio / https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
 .
 .
 .
-#git #github #versioncontrol #programming #coding #linux
+#networking #api #beginner #programming #coding #linux
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Git stash, reset and revert without losing work 👇
-https://gtec0.github.io/2026-09-29-git-stash-reset-and-revert-without-losing-work/
-#git #github #versioncontrol
+New on GTec: How HTTP status codes actually work (with curl demos) 👇
+https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
+#networking #api #beginner
