@@ -7,14 +7,22 @@ a solid tutorial even with no secrets configured.
 from __future__ import annotations
 import json
 import re
+import time
 import urllib.request
 import urllib.error
+
+# Fallback models tried when the configured one is retired (404) etc.
+# Groq hosts OpenAI's open-source GPT-OSS models (per Groq's own docs).
+_GEMINI_FALLBACK_MODELS = ["gemini-2.5-flash"]
+_GROQ_FALLBACK_MODELS = ["openai/gpt-oss-120b", "llama-3.1-8b-instant"]
+
+_TRANSIENT_CODES = {429, 500, 502, 503}
 
 
 SYSTEM_STYLE = (
     "You write for 'Code easier! | GTec' — a programming/tech tutorials blog by Asahluma Tyika. "
-    "Audience: beginners to intermediate developers. Tone: friendly, plain-English, practical, "
-    "South-African-dev-blog voice. No fluff, no 'as an AI'. Every claim must be runnable/verifiable. "
+    "Audience: beginners to intermediate developers. Tone: friendly, plain-English, practical. "
+    "No fluff, no 'as an AI'. Every claim must be runnable/verifiable. "
     "Use ## headings, fenced code blocks with language tags, tables where they help."
 )
 
@@ -63,31 +71,55 @@ def _warn(provider: str, e: Exception) -> None:
     print(f"[llm:{provider}] FAILED: {msg[:400]}", flush=True)
 
 
-def gemini_generate(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
+def _is_transient(e: Exception) -> bool:
+    """429/5xx + network blips are worth ONE retry (e.g. Gemini 503 spikes)."""
+    if isinstance(e, urllib.error.HTTPError):
+        return e.code in _TRANSIENT_CODES
+    return isinstance(e, urllib.error.URLError)
+
+
+def _call_with_retry(provider: str, fn, *args):
+    """Run fn(*args); on transient errors wait 30s and try once more."""
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
-        body = {"system_instruction": {"parts": [{"text": SYSTEM_STYLE}]},
-                "contents": [{"parts": [{"text": POST_PROMPT.format(topic=topic, angle=angle, tags=', '.join(tags), min_words=lo, max_words=hi)}]}],
-                "generationConfig": {"temperature": 0.7, "maxOutputTokens": 6000}}
-        res = _http_post_json(url, body, {})
-        parts = res["candidates"][0]["content"]["parts"]
-        return "".join(p.get("text", "") for p in parts).strip() or None
+        return fn(*args)
     except Exception as e:
-        _warn("gemini", e)
+        if _is_transient(e):
+            print(f"[llm:{provider}] transient error, retrying once in 30s...", flush=True)
+            time.sleep(30)
+            try:
+                return fn(*args)
+            except Exception as e2:
+                _warn(provider, e2)
+                return None
+        _warn(provider, e)
         return None
+
+
+def _gemini_once(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+    body = {"system_instruction": {"parts": [{"text": SYSTEM_STYLE}]},
+            "contents": [{"parts": [{"text": POST_PROMPT.format(topic=topic, angle=angle, tags=', '.join(tags), min_words=lo, max_words=hi)}]}],
+            "generationConfig": {"temperature": 0.7, "maxOutputTokens": 6000}}
+    res = _http_post_json(url, body, {})
+    parts = res["candidates"][0]["content"]["parts"]
+    return "".join(p.get("text", "") for p in parts).strip() or None
+
+
+def gemini_generate(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
+    return _call_with_retry("gemini", _gemini_once, key, model, topic, angle, tags, lo, hi)
+
+
+def _groq_once(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
+    body = {"model": model, "temperature": 0.7, "max_tokens": 6000,
+            "messages": [{"role": "system", "content": SYSTEM_STYLE},
+                         {"role": "user", "content": POST_PROMPT.format(topic=topic, angle=angle, tags=', '.join(tags), min_words=lo, max_words=hi)}]}
+    res = _http_post_json("https://api.groq.com/openai/v1/chat/completions", body,
+                          {"Authorization": f"Bearer {key}"})
+    return res["choices"][0]["message"]["content"].strip() or None
 
 
 def groq_generate(key: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
-    try:
-        body = {"model": model, "temperature": 0.7, "max_tokens": 6000,
-                "messages": [{"role": "system", "content": SYSTEM_STYLE},
-                             {"role": "user", "content": POST_PROMPT.format(topic=topic, angle=angle, tags=', '.join(tags), min_words=lo, max_words=hi)}]}
-        res = _http_post_json("https://api.groq.com/openai/v1/chat/completions", body,
-                              {"Authorization": f"Bearer {key}"})
-        return res["choices"][0]["message"]["content"].strip() or None
-    except Exception as e:
-        _warn("groq", e)
-        return None
+    return _call_with_retry("groq", _groq_once, key, model, topic, angle, tags, lo, hi)
 
 
 def ollama_generate(host: str, model: str, topic: str, angle: str, tags: list, lo: int, hi: int) -> str | None:
@@ -252,14 +284,19 @@ def generate_post(cfg: dict, topic: dict, allow_template: bool = False) -> tuple
           f"groq={'set' if env['groq_key'] else 'missing'} "
           f"ollama={'set' if env['ollama_host'] else 'missing'}", flush=True)
     if env["gemini_key"]:
-        txt = gemini_generate(env["gemini_key"], env["gemini_model"], t, a, tg, lo, hi)
-        if txt and len(txt.split()) > 300:
-            return txt, f"gemini:{env['gemini_model']}"
+        for m in dict.fromkeys([env["gemini_model"], *_GEMINI_FALLBACK_MODELS]):
+            txt = gemini_generate(env["gemini_key"], m, t, a, tg, lo, hi)
+            if txt and len(txt.split()) > 300:
+                return txt, f"gemini:{m}"
+            print(f"[llm] gemini model {m} unusable, trying next...", flush=True)
         print("[llm] gemini unusable, trying next provider...", flush=True)
     if env["groq_key"]:
-        txt = groq_generate(env["groq_key"], env["groq_model"], t, a, tg, lo, hi)
-        if txt and len(txt.split()) > 300:
-            return txt, f"groq:{env['groq_model']}"
+        for m in dict.fromkeys([env["groq_model"], *_GROQ_FALLBACK_MODELS]):
+            txt = groq_generate(env["groq_key"], m, t, a, tg, lo, hi)
+            if txt and len(txt.split()) > 300:
+                return txt, f"groq:{m}"
+            print(f"[llm] groq model {m} unusable, trying next...", flush=True)
+        print("[llm] groq unusable (all models), trying next provider...", flush=True)
     if env["ollama_host"]:
         txt = ollama_generate(env["ollama_host"], env["ollama_model"], t, a, tg, lo, hi)
         if txt and len(txt.split()) > 300:
