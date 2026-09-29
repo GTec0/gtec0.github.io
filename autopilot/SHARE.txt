@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — How HTTP status codes actually work (with curl demos)
-Link: https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/how-http-status-codes-actually-work-with-curl-demos-banner.png
+MANUAL SHARE KIT — Bash scripting crash course: loops, ifs and functions in one post
+Link: https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/bash-scripting-crash-course-loops-ifs-and-functions-in-one-post-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: How HTTP status codes actually work (with curl demos)
+🚀 New tutorial: Bash scripting crash course: loops, ifs and functions in one post
 
-Learn how HTTP status codes work by using curl against httpbin.org, complete with diagrams, scripts, and troubleshooting tips.
+Build a single Bash script step‑by‑step that teaches loops, conditionals, and functions, then run it to back up .txt files.
 
-👉 Read it here: https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
+👉 Read it here: https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
 
-#networking #api #beginner #programming #coding #linux
+#bash #linux #automation #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ How HTTP status codes actually work (with curl demos)
+✨ Bash scripting crash course: loops, ifs and functions in one post
 
-Learn how HTTP status codes work by using curl against httpbin.org, complete with diagrams, scripts, and troubleshooting tips.
+Build a single Bash script step‑by‑step that teaches loops, conditionals, and functions, then run it to back up .txt files.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
+🔗 Link in bio / https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
 .
 .
 .
-#networking #api #beginner #programming #coding #linux
+#bash #linux #automation #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: How HTTP status codes actually work (with curl demos) 👇
-https://gtec0.github.io/2026-09-29-how-http-status-codes-actually-work-with-curl-demos/
-#networking #api #beginner
+New on GTec: Bash scripting crash course: loops, ifs and functions in one post 👇
+https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
+#bash #linux #automation

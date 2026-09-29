@@ -63,6 +63,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-09-29T12:09:17.531757Z"
+    },
+    {
+      "topic": "Bash scripting crash course: loops, ifs and functions in one post",
+      "file": "2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post.md",
+      "url": "https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-09-29T21:52:30.053529Z"
     }
   ]
 }
