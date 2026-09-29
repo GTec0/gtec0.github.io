@@ -1,4 +1,4 @@
-"""Free images: Pollinations legacy URL (no key) -> Pillow fallback. Diagrams via matplotlib (offline)."""
+"""Free banner image: Pollinations URL (no key) -> Pillow fallback (offline)."""
 from __future__ import annotations
 import re
 import urllib.parse
@@ -67,44 +67,11 @@ def pillow_banner(title: str, out: Path, w=1200, h=630) -> Path:
     return out
 
 
-def matplotlib_diagram(desc: str, out: Path) -> bool:
-    """Generic-but-relevant offline diagram derived from the description."""
-    try:
-        import matplotlib
-        matplotlib.use("Agg")
-        import matplotlib.pyplot as plt
-        out.parent.mkdir(parents=True, exist_ok=True)
-        dl = desc.lower()
-        fig, ax = plt.subplots(figsize=(10, 5.5))
-        if any(k in dl for k in ("flow", "chain", "pipeline", "resolution", "request")):
-            steps = ["Inspect", "Try safely", "Apply", "Verify"][:4]
-            ax.barh(steps, [3, 5, 8, 6], color=["#4c78a8", "#72b66f", "#e45756", "#f58518"])
-            ax.set_title(desc[:80], fontsize=12)
-            ax.set_xlabel("relative effort / impact")
-        elif any(k in dl for k in ("bar", "compar", "vs", "time", "benchmark")):
-            ax.bar(["Manual", "Scripted", "Automated"], [9, 4, 1.5], color=["#e45756", "#f58518", "#54a24b"])
-            ax.set_title(desc[:80], fontsize=12)
-            ax.set_ylabel("minutes per run")
-        else:
-            x = list(range(1, 8))
-            ax.plot(x, [i * 1.4 for i in x], marker="o", label="with technique")
-            ax.plot(x, [i * 2.2 for i in x], marker="x", label="without")
-            ax.set_title(desc[:80], fontsize=12)
-            ax.legend()
-        fig.tight_layout()
-        fig.savefig(out, dpi=110)
-        plt.close(fig)
-        return True
-    except Exception:
-        return False
-
-
-def make_images(cfg: dict, title: str, tags: list, diagrams: list[str], banners_dir: Path) -> dict:
-    """Returns {banner_rel, diagram_rels}. Never raises — Pillow/matplotlib always available."""
+def make_images(cfg: dict, title: str, tags: list, banners_dir: Path) -> dict:
+    """Returns {banner_rel, banner_abs}. Never raises — Pillow fallback always works."""
     slug = slugify(title)
     banner_name = f"{slug}-banner.png"
     banner_abs = banners_dir / banner_name
-    banner_rel = f"/{banners_dir.as_posix().split('/', 1)[-1] if '/' in banners_dir.as_posix() else banners_dir.as_posix()}/{banner_name}"
     # normalize to repo-root style: /assets/images/banners/xxx.png
     banner_rel = f"/{cfg['blog'].get('banners_dir', 'assets/images/banners')}/{banner_name}"
 
@@ -115,11 +82,4 @@ def make_images(cfg: dict, title: str, tags: list, diagrams: list[str], banners_
                                  w=cfg["images"]["banner_width"], h=cfg["images"]["banner_height"])
     if not ok or not banner_abs.exists():
         pillow_banner(title, banner_abs, w=cfg["images"]["banner_width"], h=cfg["images"]["banner_height"])
-
-    diag_rels = []
-    for i, d in enumerate(diagrams[: cfg["images"].get("max_diagrams", 2)], start=1):
-        name = f"{slug}-diagram-{i}.png"
-        abs_p = banners_dir / name
-        if matplotlib_diagram(d, abs_p):
-            diag_rels.append((f"/{cfg['blog'].get('banners_dir', 'assets/images/banners')}/{name}", d))
-    return {"banner_rel": banner_rel, "banner_abs": banner_abs, "diagrams": diag_rels}
+    return {"banner_rel": banner_rel, "banner_abs": banner_abs}

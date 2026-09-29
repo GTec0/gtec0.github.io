@@ -37,7 +37,6 @@ Required structure:
 ## What's next (2-4 bullets, tease a follow-up post)
 Rules: plain English, beginner friendly, all code fenced with language, no lorem ipsum,
 no 'in conclusion'. End with a 1-sentence bookmark line.
-Also output 2 diagram ideas as HTML comments: <!-- DIAGRAM: <matplotlib-friendly description> -->
 Also output a 1-line excerpt (<=160 chars) as: <!-- EXCERPT: ... -->
 Body only, no front matter.
 """
@@ -207,9 +206,6 @@ chmod +x run.sh
 ./run.sh
 ```
 
-<!-- DIAGRAM: bar chart comparing manual steps vs scripted steps (3 bars: time saved) -->
-<!-- DIAGRAM: flowchart: Inspect -> Try safely -> Apply -> Verify -->
-
 ---
 
 ## Part 3: 10 quick recipes (copy-paste ready)
@@ -308,21 +304,13 @@ def generate_post(cfg: dict, topic: dict, allow_template: bool = False) -> tuple
     return None, "all-providers-failed"
 
 
-def extract_excerpt_and_diagrams(body: str) -> tuple[str, list[str], str]:
+def extract_excerpt(body: str) -> tuple[str, str]:
+    """Pull the EXCERPT comment out for the subtitle; strip any helper comments."""
     excerpts = re.findall(r"<!--\s*EXCERPT:\s*(.*?)\s*-->", body, re.S)
-    raw_diagrams = re.findall(r"<!--\s*DIAGRAM:\s*(.*?)\s*-->", body, re.S)
-    # dedupe: LLMs often repeat the same diagram idea twice — keep first occurrence
-    seen, diagrams = set(), []
-    for d in raw_diagrams:
-        k = d.strip().lower()
-        if k and k not in seen:
-            seen.add(k)
-            diagrams.append(d.strip())
-    diagrams = diagrams[:2]
     clean = re.sub(r"<!--\s*(EXCERPT|DIAGRAM):.*?-->", "", body, flags=re.S)
     excerpt = excerpts[0].strip()[:160] if excerpts else ""
     if not excerpt:
         para = re.sub(r"[#>*`\-]", "", clean).split("\n\n")
         para = [p.strip().replace("\n", " ") for p in para if len(p.strip()) > 60]
         excerpt = (para[0][:157] + "...") if para else ""
-    return excerpt, diagrams, re.sub(r"\n{3,}", "\n\n", clean).strip() + "\n"
+    return excerpt, re.sub(r"\n{3,}", "\n\n", clean).strip() + "\n"

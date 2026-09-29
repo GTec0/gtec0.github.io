@@ -33,27 +33,14 @@ def render_front_matter(title: str, subtitle: str, tags: list[str], banner_rel: 
     return "\n".join(lines)
 
 
-def inject_diagrams(body: str, diagrams: list[tuple[str, str]]) -> str:
-    """Append diagram figures at the end (keeps LLM body intact, images still in-content)."""
-    if not diagrams:
-        return body
-    out = body.rstrip() + "\n\n---\n\n## Diagrams\n\n"
-    for rel, desc in diagrams:
-        out += f"![{desc}]({rel})\n\n*{desc}*\n\n"
-    return out
-
-
 def write_post(cfg: dict, title: str, subtitle: str, tags: list[str], body: str,
-               banner_rel: str, diagrams: list[tuple[str, str]], date: dt.date | None = None) -> Path:
+               banner_rel: str, date: dt.date | None = None) -> Path:
     root = Path(cfg["blog"]["repo"])
     posts_dir = root / cfg["blog"].get("posts_dir", "_posts")
     posts_dir.mkdir(parents=True, exist_ok=True)
     date = date or dt.date.today()
     md = render_front_matter(title, subtitle, tags, banner_rel, cfg["blog"]["author"], date)
-    md += inject_diagrams(body, diagrams)
-    # disclosure footer: honest that the post is AI-assisted (keeps trust + FB compliance)
-    md += ("\n---\n\n*This tutorial was drafted with AI assistance and verified with runnable "
-           "examples. Found a mistake? Email the author — corrections are welcome.*\n")
+    md += body
     path = posts_dir / build_filename(title, date)
     i = 2
     while path.exists():  # fully-automatic must never overwrite

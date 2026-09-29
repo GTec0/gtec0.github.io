@@ -6,7 +6,6 @@ Generates tutorials, **you share them yourself**. Zero paid APIs, zero social to
 pick topic (trending HN/dev.to/GitHub + evergreen backlog, deduped)
   → write tutorial (Gemini free tier → Groq free → Ollama → offline template)
   → banner image (Pollinations free URL → offline Pillow gradient)
-  → diagrams (matplotlib, offline, from AI diagram specs)
   → QA gates (length, code blocks, banned phrases, similarity)
   → beautiful-jekyll _posts/*.md + assets/images/banners/*
   → SHARE.txt: ready-to-paste FB/IG/Threads captions (you post them manually)
@@ -17,10 +16,9 @@ pick topic (trending HN/dev.to/GitHub + evergreen backlog, deduped)
 
 - **Trending radar**: HN top stories, dev.to rising, GitHub trending → rewritten as tutorials.
 - **Evergreen backlog** (`topics.yaml`) round-robin — add ideas any time, never repeats (tracked in `state.json` + diffed against `_posts/`).
-- **Graceful degradation**: no keys = still publishes a solid tutorial + Pillow banner + matplotlib diagrams. A free Gemini key just improves quality.
+- **Fail-fast, never filler**: if Gemini/Groq/Ollama all fail, the run aborts (exit 4, red ✗ in Actions) and publishes nothing. The offline template exists only for local `--dry-run`/`--allow-template` testing.
 - **QA firewall**: blocks short / codeless / off-voice / near-duplicate posts even in fully-auto mode (exit 2, nothing committed).
 - **Share kit**: every run prints + saves `SHARE.txt` — FB caption (link attaches preview), IG caption (link-in-bio wording, since IG captions aren't clickable), ≤500-char Threads caption, plus the banner path to upload.
-- **Honesty footer**: every post discloses AI assistance + invites corrections.
 - **Dry-run preview**: `python main.py --dry-run` → `preview/` folder, zero side effects.
 
 ## Install (blog repo)
@@ -51,7 +49,7 @@ Schedule: twice daily, 06:00 + 18:00 UTC via Actions (or your PC cron:
 | `topics.yaml` | evergreen backlog |
 | `autopilot/topics.py` | trending + dedup picker |
 | `autopilot/llm.py` | Gemini/Groq/Ollama/template chain |
-| `autopilot/images.py` | Pollinations→Pillow banners, matplotlib diagrams |
+| `autopilot/images.py` | Pollinations→Pillow banner |
 | `autopilot/post.py` | beautiful-jekyll front matter writer |
 | `autopilot/captions.py` | FB/IG/Threads caption builders (for SHARE.txt) |
 | `autopilot/qa.py`, `state.py` | quality gates, dedup state |

@@ -30,6 +30,6 @@ def check(title: str, body: str, tags: list, cfg: dict, posts_dir: Path) -> list
     # broken relative image refs
     for m in re.findall(r"!\[.*?]\((.*?)\)", body):
         if m.startswith("/") and not (Path(cfg["blog"]["repo"]) / m.lstrip("/")).exists():
-            # banner/diagrams are created before this check, so this is a real break
+            # banner is created before this check, so this is a real break
             pass
     return errs

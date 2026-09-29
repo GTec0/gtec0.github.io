@@ -29,8 +29,6 @@ images:
   # 1) try Pollinations free URL (no key), 2) fall back to Pillow gradient + title
   provider_order: ["pollinations", "pillow"]
   pollinations_model: "flux"
-  # diagrams are generated locally with matplotlib from AI-written specs — always free
-  max_diagrams: 2
 
 # ── Topics ──
 topics:

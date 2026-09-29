@@ -87,8 +87,8 @@ def main() -> int:
         print(f"[llm] FATAL: {provider} — no post written, nothing committed. "
               f"Check the [llm:*] FAILED lines above (keys? quota? model retired?).")
         return 4
-    excerpt, diagrams, body = llm.extract_excerpt_and_diagrams(body_raw)
-    print(f"[llm] provider={provider} words={len(body.split())} diagrams={len(diagrams)}")
+    excerpt, body = llm.extract_excerpt(body_raw)
+    print(f"[llm] provider={provider} words={len(body.split())}")
 
     title = topic["topic"].strip().rstrip(".")
     if len(title) > 88:
@@ -99,15 +99,15 @@ def main() -> int:
         prev = ROOT / "preview"
         shutil.rmtree(prev, ignore_errors=True)
         (prev / "banners").mkdir(parents=True)
-        imgs = IMG.make_images(cfg, title, tags, diagrams, prev / "banners")
+        imgs = IMG.make_images(cfg, title, tags, prev / "banners")
         (prev / "POST.md").write_text(P.render_front_matter(title, excerpt, tags, imgs["banner_rel"], cfg["blog"]["author"], dt.date.today()) + body)
         (prev / "SHARE.txt").write_text(share_text(cfg, title, excerpt, "https://gtec0.github.io/<slug>/", tags, imgs["banner_abs"]))
         print("[dry-run] wrote preview/POST.md + preview/SHARE.txt + banners. Nothing else touched.")
         return 0
 
     # ── 3. images ──
-    imgs = IMG.make_images(cfg, title, tags, diagrams, banners_dir)
-    print(f"[img] banner={imgs['banner_rel']} diagrams={len(imgs['diagrams'])}")
+    imgs = IMG.make_images(cfg, title, tags, banners_dir)
+    print(f"[img] banner={imgs['banner_rel']}")
 
     # ── 4. QA (blocks junk even in fully-automatic mode) ──
     errs = QA.check(title, body, tags, cfg, posts_dir)
@@ -116,8 +116,7 @@ def main() -> int:
         return 2
 
     # ── 5. write post ──
-    path = P.write_post(cfg, title, excerpt, tags, body, imgs["banner_rel"],
-                        imgs["diagrams"])
+    path = P.write_post(cfg, title, excerpt, tags, body, imgs["banner_rel"])
     url = P.post_url(cfg, path)
     print(f"[post] {path} -> {url}")
 
