@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Bash scripting crash course: loops, ifs and functions in one post
-Link: https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/bash-scripting-crash-course-loops-ifs-and-functions-in-one-post-banner.png
+MANUAL SHARE KIT — Docker in 15 minutes: images vs containers vs volumes
+Link: https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/docker-in-15-minutes-images-vs-containers-vs-volumes-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Bash scripting crash course: loops, ifs and functions in one post
+🚀 New tutorial: Docker in 15 minutes: images vs containers vs volumes
 
-Build a single Bash script step‑by‑step that teaches loops, conditionals, and functions, then run it to back up .txt files.
+Master Docker fundamentals in 15 minutes: clear mental models, practical diagrams, and hands-on commands for images, containers, and volumes.
 
-👉 Read it here: https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
+👉 Read it here: https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
 
-#bash #linux #automation #programming #coding #python
+#docker #devops #beginner #programming #coding #linux
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Bash scripting crash course: loops, ifs and functions in one post
+✨ Docker in 15 minutes: images vs containers vs volumes
 
-Build a single Bash script step‑by‑step that teaches loops, conditionals, and functions, then run it to back up .txt files.
+Master Docker fundamentals in 15 minutes: clear mental models, practical diagrams, and hands-on commands for images, containers, and volumes.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
+🔗 Link in bio / https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
 .
 .
 .
-#bash #linux #automation #programming #coding #python
+#docker #devops #beginner #programming #coding #linux
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Bash scripting crash course: loops, ifs and functions in one post 👇
-https://gtec0.github.io/2026-09-29-bash-scripting-crash-course-loops-ifs-and-functions-in-one-post/
-#bash #linux #automation
+New on GTec: Docker in 15 minutes: images vs containers vs volumes 👇
+https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
+#docker #devops #beginner
