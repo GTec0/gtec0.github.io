@@ -79,6 +79,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-09-30T11:56:07.398564Z"
+    },
+    {
+      "topic": "SSH keys and config: stop typing passwords",
+      "file": "2026-09-30-ssh-keys-and-config-stop-typing-passwords.md",
+      "url": "https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-09-30T21:53:09.810693Z"
     }
   ]
 }

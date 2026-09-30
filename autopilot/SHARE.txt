@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Docker in 15 minutes: images vs containers vs volumes
-Link: https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/docker-in-15-minutes-images-vs-containers-vs-volumes-banner.png
+MANUAL SHARE KIT — SSH keys and config: stop typing passwords
+Link: https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ssh-keys-and-config-stop-typing-passwords-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Docker in 15 minutes: images vs containers vs volumes
+🚀 New tutorial: SSH keys and config: stop typing passwords
 
-Master Docker fundamentals in 15 minutes: clear mental models, practical diagrams, and hands-on commands for images, containers, and volumes.
+Learn how to generate SSH keys, add them to GitHub, and configure ~/.ssh/config so you never type a password again.
 
-👉 Read it here: https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
+👉 Read it here: https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
 
-#docker #devops #beginner #programming #coding #linux
+#linux #github #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Docker in 15 minutes: images vs containers vs volumes
+✨ SSH keys and config: stop typing passwords
 
-Master Docker fundamentals in 15 minutes: clear mental models, practical diagrams, and hands-on commands for images, containers, and volumes.
+Learn how to generate SSH keys, add them to GitHub, and configure ~/.ssh/config so you never type a password again.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
+🔗 Link in bio / https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
 .
 .
 .
-#docker #devops #beginner #programming #coding #linux
+#linux #github #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Docker in 15 minutes: images vs containers vs volumes 👇
-https://gtec0.github.io/2026-09-30-docker-in-15-minutes-images-vs-containers-vs-volumes/
-#docker #devops #beginner
+New on GTec: SSH keys and config: stop typing passwords 👇
+https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
+#linux #github #developertips
