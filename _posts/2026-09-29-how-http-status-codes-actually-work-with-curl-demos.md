@@ -285,20 +285,3 @@ Run it with `python3 teapot.py` and verify the output.
 Each of these topics expands the practical power of the basics you just learned.
 
 *Bookmark this guide for quick reference when debugging APIs.*
-
----
-
-## Diagrams
-
-![A sequence diagram showing a client sending a GET request to httpbin.org, the server responding with a status line, headers, and optional body. Include arrows for 1xx, 2xx, 3xx (with Location header), 4xx, and 5xx branches.](/assets/images/banners/how-http-status-codes-actually-work-with-curl-demos-diagram-1.png)
-
-*A sequence diagram showing a client sending a GET request to httpbin.org, the server responding with a status line, headers, and optional body. Include arrows for 1xx, 2xx, 3xx (with Location header), 4xx, and 5xx branches.*
-
-![A flowchart mapping numeric status code ranges (100‑199, 200‑299, …) to typical actions (continue, success, follow redirect, fix request, retry later).](/assets/images/banners/how-http-status-codes-actually-work-with-curl-demos-diagram-2.png)
-
-*A flowchart mapping numeric status code ranges (100‑199, 200‑299, …) to typical actions (continue, success, follow redirect, fix request, retry later).*
-
-
----
-
-*This tutorial was drafted with AI assistance and verified with runnable examples. Found a mistake? Email the author — corrections are welcome.*

@@ -251,20 +251,3 @@ Doing this once in a safe sandbox eliminates 90% of the anxiety when a real emer
 - In our next tutorial, we will break down **interactive rebase (`git rebase -i`)**—how to squash, reorder, and edit commits cleanly before opening your GitHub pull request.
 
 Bookmark this page so you have the recovery commands handy the next time a Git command does not go as planned.
-
----
-
-## Diagrams
-
-![A horizontal flow showing three zones (Working Directory, Staging Index, Commit History) with arrows for 'stash' (sweeping working dir/staging into a stack), 'reset' (moving branch pointers backward across history, staging, and working dir based on --soft, --mixed, --hard), and 'revert' (appending a brand-new commit that inverts a previous commit's diff).](/assets/images/banners/git-stash-reset-and-revert-without-losing-work-diagram-1.png)
-
-*A horizontal flow showing three zones (Working Directory, Staging Index, Commit History) with arrows for 'stash' (sweeping working dir/staging into a stack), 'reset' (moving branch pointers backward across history, staging, and working dir based on --soft, --mixed, --hard), and 'revert' (appending a brand-new commit that inverts a previous commit's diff).*
-
-![A reflog timeline tree displaying HEAD moving from commit C to B via 'git reset --hard HEAD~1', leaving commit C detached. A dashed recovery arrow points from 'git reflog' output back to commit C to restore it via a temporary branch.](/assets/images/banners/git-stash-reset-and-revert-without-losing-work-diagram-2.png)
-
-*A reflog timeline tree displaying HEAD moving from commit C to B via 'git reset --hard HEAD~1', leaving commit C detached. A dashed recovery arrow points from 'git reflog' output back to commit C to restore it via a temporary branch.*
-
-
----
-
-*This tutorial was drafted with AI assistance and verified with runnable examples. Found a mistake? Email the author — corrections are welcome.*

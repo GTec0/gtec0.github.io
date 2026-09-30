@@ -302,20 +302,3 @@ If you hit any of the errors above, apply the corresponding fix.
 * **Performance benchmarking** – real‑world timing of `pip`, `conda`, and `uv` on a 100‑package data‑science stack.
 
 Bookmark this guide for quick reference when you set up your next Python project.
-
----
-
-## Diagrams
-
-![Flowchart showing three parallel paths: venv → python -m venv → activate → pip install; conda → conda create → conda activate → conda install; uv → uv venv → source activate → uv pip install, converging on a “run script” box.](/assets/images/banners/python-virtual-environments-explained-venv-vs-conda-vs-uv-diagram-1.png)
-
-*Flowchart showing three parallel paths: venv → python -m venv → activate → pip install; conda → conda create → conda activate → conda install; uv → uv venv → source activate → uv pip install, converging on a “run script” box.*
-
-![Table comparing venv, conda, uv on dimensions (size, speed, binary support, lock file, OS), with colored bars indicating strengths.](/assets/images/banners/python-virtual-environments-explained-venv-vs-conda-vs-uv-diagram-2.png)
-
-*Table comparing venv, conda, uv on dimensions (size, speed, binary support, lock file, OS), with colored bars indicating strengths.*
-
-
----
-
-*This tutorial was drafted with AI assistance and verified with runnable examples. Found a mistake? Email the author — corrections are welcome.*
