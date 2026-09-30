@@ -255,20 +255,3 @@ Now that you have the baseline trinity nailed down, you are ready to assemble fu
 Look out for our upcoming guide: *"Docker Compose for Beginners: Running Your App and Database in 1 Command."*
 
 Bookmark this page as your quick mental-model cheat sheet whenever you need a fast refresher on Docker storage and lifecycles.
-
----
-
-## Diagrams
-
-![Horizontal flow chart using boxes and arrows showing Dockerfile compiling into a Read-Only Image (layers stacked), which instantiates into an active Container with a thin read/write layer, connected via a dashed arrow to an external persistent Volume box on the host file system.](/assets/images/banners/docker-in-15-minutes-images-vs-containers-vs-volumes-diagram-1.png)
-
-*Horizontal flow chart using boxes and arrows showing Dockerfile compiling into a Read-Only Image (layers stacked), which instantiates into an active Container with a thin read/write layer, connected via a dashed arrow to an external persistent Volume box on the host file system.*
-
-![Side-by-side comparison diagram showing two states: State A (Container running with an attached volume, both holding data files) and State B (Container destroyed and gone, but the Volume box remaining intact on the host storage with files preserved).](/assets/images/banners/docker-in-15-minutes-images-vs-containers-vs-volumes-diagram-2.png)
-
-*Side-by-side comparison diagram showing two states: State A (Container running with an attached volume, both holding data files) and State B (Container destroyed and gone, but the Volume box remaining intact on the host storage with files preserved).*
-
-
----
-
-*This tutorial was drafted with AI assistance and verified with runnable examples. Found a mistake? Email the author — corrections are welcome.*

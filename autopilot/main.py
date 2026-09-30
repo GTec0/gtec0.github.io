@@ -107,7 +107,7 @@ def main() -> int:
 
     # ── 3. images ──
     imgs = IMG.make_images(cfg, title, tags, banners_dir)
-    print(f"[img] banner={imgs['banner_rel']}")
+    print(f"[img] provider={imgs['provider']} banner={imgs['banner_rel']}")
 
     # ── 4. QA (blocks junk even in fully-automatic mode) ──
     errs = QA.check(title, body, tags, cfg, posts_dir)

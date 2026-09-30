@@ -5,7 +5,7 @@ Generates tutorials, **you share them yourself**. Zero paid APIs, zero social to
 ```
 pick topic (trending HN/dev.to/GitHub + evergreen backlog, deduped)
   → write tutorial (Gemini free tier → Groq free → Ollama → offline template)
-  → banner image (Pollinations free URL → offline Pillow gradient)
+  → banner image (HuggingFace FLUX free tier → Pollinations → offline Pillow)
   → QA gates (length, code blocks, banned phrases, similarity)
   → beautiful-jekyll _posts/*.md + assets/images/banners/*
   → SHARE.txt: ready-to-paste FB/IG/Threads captions (you post them manually)
@@ -27,7 +27,9 @@ pick topic (trending HN/dev.to/GitHub + evergreen backlog, deduped)
 cd /path/to/gtec0.github.io   # your beautiful-jekyll checkout
 cp -r /path/to/gtec-autopilot autopilot
 cp autopilot/.github/workflows/autopilot.yml .github/workflows/autopilot.yml
-# optional secret: GEMINI_API_KEY (free from https://aistudio.google.com) — skip it and the offline engine is used
+# optional secrets: GEMINI_API_KEY (free from https://aistudio.google.com) for text,
+# HF_TOKEN (free from https://huggingface.co/settings/tokens) for best banners —
+# skip either and the chain falls back (template is NEVER used for real posts)
 git add autopilot .github/workflows/autopilot.yml && git commit -m "add autopilot" && git push
 ```
 
@@ -49,7 +51,7 @@ Schedule: twice daily, 06:00 + 18:00 UTC via Actions (or your PC cron:
 | `topics.yaml` | evergreen backlog |
 | `autopilot/topics.py` | trending + dedup picker |
 | `autopilot/llm.py` | Gemini/Groq/Ollama/template chain |
-| `autopilot/images.py` | Pollinations→Pillow banner |
+| `autopilot/images.py` | HuggingFace→Pollinations→Pillow banner chain |
 | `autopilot/post.py` | beautiful-jekyll front matter writer |
 | `autopilot/captions.py` | FB/IG/Threads caption builders (for SHARE.txt) |
 | `autopilot/qa.py`, `state.py` | quality gates, dedup state |

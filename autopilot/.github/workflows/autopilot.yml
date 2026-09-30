@@ -34,11 +34,12 @@ jobs:
 
       # Layout in the blog repo: this whole generator lives in autopilot/
       # (i.e. blog repo contains autopilot/main.py, autopilot/autopilot/...)
-      - name: Generate post (free AI + fallback, never fails silently)
+      - name: Generate post (free AI text + free banner chain, fails loudly not filler)
         env:
           BLOG_URL: https://gtec0.github.io
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
           MANUAL_TOPIC: ${{ inputs.topic }}
         run: |
           ARGS=""

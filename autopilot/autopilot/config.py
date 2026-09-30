@@ -39,5 +39,6 @@ def load_config(path: str | Path | None = None) -> dict:
         "ollama_host": os.getenv("OLLAMA_HOST", ""),
         "ollama_model": os.getenv("OLLAMA_MODEL", "llama3.1"),
         "no_ai_images": os.getenv("NO_AI_IMAGES", "0") == "1",
+        "hf_token": os.getenv("HF_TOKEN", ""),
     }
     return cfg

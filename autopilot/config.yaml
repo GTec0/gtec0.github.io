@@ -26,8 +26,9 @@ content:
 images:
   banner_width: 1200
   banner_height: 630
-  # 1) try Pollinations free URL (no key), 2) fall back to Pillow gradient + title
-  provider_order: ["pollinations", "pillow"]
+  # banner chain: HuggingFace (free HF_TOKEN, best) -> Pollinations (no key) -> Pillow (offline)
+  provider_order: ["huggingface", "pollinations", "pillow"]
+  hf_model: "black-forest-labs/FLUX.1-schnell"
   pollinations_model: "flux"
 
 # ── Topics ──

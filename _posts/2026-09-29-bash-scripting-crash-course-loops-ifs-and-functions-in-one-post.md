@@ -261,20 +261,3 @@ Modify the script so that, **in addition to `.txt` files**, it also backs up any
 
 Happy scripting!  
 *Bookmark this page for a quick reference.*
-
----
-
-## Diagrams
-
-![Flowchart showing script execution: start → argument check → directory validation → file loop → archive creation → end](/assets/images/banners/bash-scripting-crash-course-loops-ifs-and-functions-in-one-post-diagram-1.png)
-
-*Flowchart showing script execution: start → argument check → directory validation → file loop → archive creation → end*
-
-![Timeline diagram of timestamp function output format (YYYYMMDD_HHMMSS) with arrows pointing to archive filename.](/assets/images/banners/bash-scripting-crash-course-loops-ifs-and-functions-in-one-post-diagram-2.png)
-
-*Timeline diagram of timestamp function output format (YYYYMMDD_HHMMSS) with arrows pointing to archive filename.*
-
-
----
-
-*This tutorial was drafted with AI assistance and verified with runnable examples. Found a mistake? Email the author — corrections are welcome.*
