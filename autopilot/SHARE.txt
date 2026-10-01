@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — SSH keys and config: stop typing passwords
-Link: https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ssh-keys-and-config-stop-typing-passwords-banner.png
+MANUAL SHARE KIT — Python list comprehensions vs loops: when to use which
+Link: https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-list-comprehensions-vs-loops-when-to-use-which-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: SSH keys and config: stop typing passwords
+🚀 New tutorial: Python list comprehensions vs loops: when to use which
 
-Learn how to generate SSH keys, add them to GitHub, and configure ~/.ssh/config so you never type a password again.
+Compare Python list comprehensions and loops with real benchmarks and readability tips, then decide which to use in your code.
 
-👉 Read it here: https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
+👉 Read it here: https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
 
-#linux #github #developertips #programming #coding #python
+#python #programming #coding #linux #techtips #gtec
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ SSH keys and config: stop typing passwords
+✨ Python list comprehensions vs loops: when to use which
 
-Learn how to generate SSH keys, add them to GitHub, and configure ~/.ssh/config so you never type a password again.
+Compare Python list comprehensions and loops with real benchmarks and readability tips, then decide which to use in your code.
 
-🔗 Link in bio / https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
+🔗 Link in bio / https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
 .
 .
 .
-#linux #github #developertips #programming #coding #python
+#python #programming #coding #linux #techtips #gtec
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: SSH keys and config: stop typing passwords 👇
-https://gtec0.github.io/2026-09-30-ssh-keys-and-config-stop-typing-passwords/
-#linux #github #developertips
+New on GTec: Python list comprehensions vs loops: when to use which 👇
+https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
+#python #programming #coding

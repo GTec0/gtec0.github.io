@@ -87,6 +87,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-09-30T21:53:09.810693Z"
+    },
+    {
+      "topic": "Python list comprehensions vs loops: when to use which",
+      "file": "2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which.md",
+      "url": "https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-01T12:27:40.770118Z"
     }
   ]
 }
