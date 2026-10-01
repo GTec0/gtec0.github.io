@@ -95,6 +95,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-01T12:27:40.770118Z"
+    },
+    {
+      "topic": "chmod and file permissions explained with octal chart",
+      "file": "2026-10-01-chmod-and-file-permissions-explained-with-octal-chart.md",
+      "url": "https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-01T22:21:29.928454Z"
     }
   ]
 }

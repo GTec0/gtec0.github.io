@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Python list comprehensions vs loops: when to use which
-Link: https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-list-comprehensions-vs-loops-when-to-use-which-banner.png
+MANUAL SHARE KIT — chmod and file permissions explained with octal chart
+Link: https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/chmod-and-file-permissions-explained-with-octal-chart-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Python list comprehensions vs loops: when to use which
+🚀 New tutorial: chmod and file permissions explained with octal chart
 
-Compare Python list comprehensions and loops with real benchmarks and readability tips, then decide which to use in your code.
+Master Linux file permissions and chmod with an easy octal chart, clear math breakdowns, and 5 practical real-world terminal scenarios.
 
-👉 Read it here: https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
+👉 Read it here: https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
 
-#python #programming #coding #linux #techtips #gtec
+#linux #terminal #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Python list comprehensions vs loops: when to use which
+✨ chmod and file permissions explained with octal chart
 
-Compare Python list comprehensions and loops with real benchmarks and readability tips, then decide which to use in your code.
+Master Linux file permissions and chmod with an easy octal chart, clear math breakdowns, and 5 practical real-world terminal scenarios.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
+🔗 Link in bio / https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
 .
 .
 .
-#python #programming #coding #linux #techtips #gtec
+#linux #terminal #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Python list comprehensions vs loops: when to use which 👇
-https://gtec0.github.io/2026-10-01-python-list-comprehensions-vs-loops-when-to-use-which/
-#python #programming #coding
+New on GTec: chmod and file permissions explained with octal chart 👇
+https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
+#linux #terminal #beginner
