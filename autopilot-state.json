@@ -111,6 +111,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-02T11:54:41.354652Z"
+    },
+    {
+      "topic": "tmux for beginners: multiplex your terminal",
+      "file": "2026-10-02-tmux-for-beginners-multiplex-your-terminal.md",
+      "url": "https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-02T21:49:57.068691Z"
     }
   ]
 }

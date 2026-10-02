@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — How DNS works: from domain to IP with dig
-Link: https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/how-dns-works-from-domain-to-ip-with-dig-banner.png
+MANUAL SHARE KIT — tmux for beginners: multiplex your terminal
+Link: https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/tmux-for-beginners-multiplex-your-terminal-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: How DNS works: from domain to IP with dig
+🚀 New tutorial: tmux for beginners: multiplex your terminal
 
-A step‑by‑step guide that shows how a domain name becomes an IP address, using dig to watch every DNS hop.
+Learn how to use tmux to split terminal windows, keep remote tasks running in the background, and manage multiple shell sessions like a pro.
 
-👉 Read it here: https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
+👉 Read it here: https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
 
-#networking #linux #programming #coding #python #techtips
+#linux #terminal #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ How DNS works: from domain to IP with dig
+✨ tmux for beginners: multiplex your terminal
 
-A step‑by‑step guide that shows how a domain name becomes an IP address, using dig to watch every DNS hop.
+Learn how to use tmux to split terminal windows, keep remote tasks running in the background, and manage multiple shell sessions like a pro.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
+🔗 Link in bio / https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
 .
 .
 .
-#networking #linux #programming #coding #python #techtips
+#linux #terminal #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: How DNS works: from domain to IP with dig 👇
-https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
-#networking #linux #programming
+New on GTec: tmux for beginners: multiplex your terminal 👇
+https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
+#linux #terminal #developertips
