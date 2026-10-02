@@ -103,6 +103,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-01T22:21:29.928454Z"
+    },
+    {
+      "topic": "How DNS works: from domain to IP with dig",
+      "file": "2026-10-02-how-dns-works-from-domain-to-ip-with-dig.md",
+      "url": "https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-02T11:54:41.354652Z"
     }
   ]
 }

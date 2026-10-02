@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — chmod and file permissions explained with octal chart
-Link: https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/chmod-and-file-permissions-explained-with-octal-chart-banner.png
+MANUAL SHARE KIT — How DNS works: from domain to IP with dig
+Link: https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/how-dns-works-from-domain-to-ip-with-dig-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: chmod and file permissions explained with octal chart
+🚀 New tutorial: How DNS works: from domain to IP with dig
 
-Master Linux file permissions and chmod with an easy octal chart, clear math breakdowns, and 5 practical real-world terminal scenarios.
+A step‑by‑step guide that shows how a domain name becomes an IP address, using dig to watch every DNS hop.
 
-👉 Read it here: https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
+👉 Read it here: https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
 
-#linux #terminal #beginner #programming #coding #python
+#networking #linux #programming #coding #python #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ chmod and file permissions explained with octal chart
+✨ How DNS works: from domain to IP with dig
 
-Master Linux file permissions and chmod with an easy octal chart, clear math breakdowns, and 5 practical real-world terminal scenarios.
+A step‑by‑step guide that shows how a domain name becomes an IP address, using dig to watch every DNS hop.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
+🔗 Link in bio / https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
 .
 .
 .
-#linux #terminal #beginner #programming #coding #python
+#networking #linux #programming #coding #python #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: chmod and file permissions explained with octal chart 👇
-https://gtec0.github.io/2026-10-01-chmod-and-file-permissions-explained-with-octal-chart/
-#linux #terminal #beginner
+New on GTec: How DNS works: from domain to IP with dig 👇
+https://gtec0.github.io/2026-10-02-how-dns-works-from-domain-to-ip-with-dig/
+#networking #linux #programming
