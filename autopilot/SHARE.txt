@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — JavaScript fetch vs axios: handling APIs and errors
-Link: https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/javascript-fetch-vs-axios-handling-apis-and-errors-banner.png
+MANUAL SHARE KIT — Linux grep in 10 practical examples
+Link: https://gtec0.github.io/2026-10-03-linux-grep-in-10-practical-examples/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/linux-grep-in-10-practical-examples-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: JavaScript fetch vs axios: handling APIs and errors
+🚀 New tutorial: Linux grep in 10 practical examples
 
-Learn how JavaScript fetch and Axios handle API calls and errors differently with practical, side-by-side code examples you can test right away.
+Learn how to master Linux grep with 10 real‑world log and code search examples, covering -r, -i, -n and more.
 
-👉 Read it here: https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
+👉 Read it here: https://gtec0.github.io/2026-10-03-linux-grep-in-10-practical-examples/
 
-#javascript #api #programming #coding #linux #python
+#linux #terminal #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ JavaScript fetch vs axios: handling APIs and errors
+✨ Linux grep in 10 practical examples
 
-Learn how JavaScript fetch and Axios handle API calls and errors differently with practical, side-by-side code examples you can test right away.
+Learn how to master Linux grep with 10 real‑world log and code search examples, covering -r, -i, -n and more.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
+🔗 Link in bio / https://gtec0.github.io/2026-10-03-linux-grep-in-10-practical-examples/
 .
 .
 .
-#javascript #api #programming #coding #linux #python
+#linux #terminal #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: JavaScript fetch vs axios: handling APIs and errors 👇
-https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
-#javascript #api #programming
+New on GTec: Linux grep in 10 practical examples 👇
+https://gtec0.github.io/2026-10-03-linux-grep-in-10-practical-examples/
+#linux #terminal #beginner

@@ -127,6 +127,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-03T11:07:25.217336Z"
+    },
+    {
+      "topic": "Linux grep in 10 practical examples",
+      "file": "2026-10-03-linux-grep-in-10-practical-examples.md",
+      "url": "https://gtec0.github.io/2026-10-03-linux-grep-in-10-practical-examples/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-03T20:36:26.280774Z"
     }
   ]
 }
