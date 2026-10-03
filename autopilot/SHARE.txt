@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — tmux for beginners: multiplex your terminal
-Link: https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/tmux-for-beginners-multiplex-your-terminal-banner.png
+MANUAL SHARE KIT — JavaScript fetch vs axios: handling APIs and errors
+Link: https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/javascript-fetch-vs-axios-handling-apis-and-errors-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: tmux for beginners: multiplex your terminal
+🚀 New tutorial: JavaScript fetch vs axios: handling APIs and errors
 
-Learn how to use tmux to split terminal windows, keep remote tasks running in the background, and manage multiple shell sessions like a pro.
+Learn how JavaScript fetch and Axios handle API calls and errors differently with practical, side-by-side code examples you can test right away.
 
-👉 Read it here: https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
+👉 Read it here: https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
 
-#linux #terminal #developertips #programming #coding #python
+#javascript #api #programming #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ tmux for beginners: multiplex your terminal
+✨ JavaScript fetch vs axios: handling APIs and errors
 
-Learn how to use tmux to split terminal windows, keep remote tasks running in the background, and manage multiple shell sessions like a pro.
+Learn how JavaScript fetch and Axios handle API calls and errors differently with practical, side-by-side code examples you can test right away.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
+🔗 Link in bio / https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
 .
 .
 .
-#linux #terminal #developertips #programming #coding #python
+#javascript #api #programming #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: tmux for beginners: multiplex your terminal 👇
-https://gtec0.github.io/2026-10-02-tmux-for-beginners-multiplex-your-terminal/
-#linux #terminal #developertips
+New on GTec: JavaScript fetch vs axios: handling APIs and errors 👇
+https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/
+#javascript #api #programming

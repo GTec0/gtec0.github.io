@@ -119,6 +119,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-02T21:49:57.068691Z"
+    },
+    {
+      "topic": "JavaScript fetch vs axios: handling APIs and errors",
+      "file": "2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors.md",
+      "url": "https://gtec0.github.io/2026-10-03-javascript-fetch-vs-axios-handling-apis-and-errors/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-03T11:07:25.217336Z"
     }
   ]
 }
