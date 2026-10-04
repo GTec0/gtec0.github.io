@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — curl in 10 examples: test any API from the terminal
-Link: https://gtec0.github.io/2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/curl-in-10-examples-test-any-api-from-the-terminal-banner.png
+MANUAL SHARE KIT — tar, zip and friends: compress anything on Linux
+Link: https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/tar-zip-and-friends-compress-anything-on-linux-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: curl in 10 examples: test any API from the terminal
+🚀 New tutorial: tar, zip and friends: compress anything on Linux
 
-Learn 10 practical curl commands to test GET, POST, headers, and auth against httpbin.org – perfect for beginners who want to probe any API from the terminal.
+Master Linux compression with side-by-side tar and zip recipes. Learn how to archive, compress, inspect, and safely restore your files with ease.
 
-👉 Read it here: https://gtec0.github.io/2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal/
+👉 Read it here: https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
 
-#linux #api #networking #beginner #programming #coding
+#linux #terminal #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ curl in 10 examples: test any API from the terminal
+✨ tar, zip and friends: compress anything on Linux
 
-Learn 10 practical curl commands to test GET, POST, headers, and auth against httpbin.org – perfect for beginners who want to probe any API from the terminal.
+Master Linux compression with side-by-side tar and zip recipes. Learn how to archive, compress, inspect, and safely restore your files with ease.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal/
+🔗 Link in bio / https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
 .
 .
 .
-#linux #api #networking #beginner #programming #coding
+#linux #terminal #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: curl in 10 examples: test any API from the terminal 👇
-https://gtec0.github.io/2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal/
-#linux #api #networking
+New on GTec: tar, zip and friends: compress anything on Linux 👇
+https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
+#linux #terminal #beginner

@@ -143,6 +143,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-04T11:48:04.882909Z"
+    },
+    {
+      "topic": "tar, zip and friends: compress anything on Linux",
+      "file": "2026-10-04-tar-zip-and-friends-compress-anything-on-linux.md",
+      "url": "https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-04T20:52:23.819962Z"
     }
   ]
 }
