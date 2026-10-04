@@ -135,6 +135,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-03T20:36:26.280774Z"
+    },
+    {
+      "topic": "curl in 10 examples: test any API from the terminal",
+      "file": "2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal.md",
+      "url": "https://gtec0.github.io/2026-10-04-curl-in-10-examples-test-any-api-from-the-terminal/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-04T11:48:04.882909Z"
     }
   ]
 }
