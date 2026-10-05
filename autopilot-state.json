@@ -151,6 +151,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-04T20:52:23.819962Z"
+    },
+    {
+      "topic": "rsync: back up and sync files without the fear",
+      "file": "2026-10-05-rsync-back-up-and-sync-files-without-the-fear.md",
+      "url": "https://gtec0.github.io/2026-10-05-rsync-back-up-and-sync-files-without-the-fear/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-05T13:37:52.520104Z"
     }
   ]
 }

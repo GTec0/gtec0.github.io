@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — tar, zip and friends: compress anything on Linux
-Link: https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/tar-zip-and-friends-compress-anything-on-linux-banner.png
+MANUAL SHARE KIT — rsync: back up and sync files without the fear
+Link: https://gtec0.github.io/2026-10-05-rsync-back-up-and-sync-files-without-the-fear/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/rsync-back-up-and-sync-files-without-the-fear-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: tar, zip and friends: compress anything on Linux
+🚀 New tutorial: rsync: back up and sync files without the fear
 
-Master Linux compression with side-by-side tar and zip recipes. Learn how to archive, compress, inspect, and safely restore your files with ease.
+Learn how to use rsync safely with dry‑runs, five everyday recipes, and SSH remote sync—perfect for developers who want reliable backups.
 
-👉 Read it here: https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
+👉 Read it here: https://gtec0.github.io/2026-10-05-rsync-back-up-and-sync-files-without-the-fear/
 
-#linux #terminal #beginner #programming #coding #python
+#linux #backup #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ tar, zip and friends: compress anything on Linux
+✨ rsync: back up and sync files without the fear
 
-Master Linux compression with side-by-side tar and zip recipes. Learn how to archive, compress, inspect, and safely restore your files with ease.
+Learn how to use rsync safely with dry‑runs, five everyday recipes, and SSH remote sync—perfect for developers who want reliable backups.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
+🔗 Link in bio / https://gtec0.github.io/2026-10-05-rsync-back-up-and-sync-files-without-the-fear/
 .
 .
 .
-#linux #terminal #beginner #programming #coding #python
+#linux #backup #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: tar, zip and friends: compress anything on Linux 👇
-https://gtec0.github.io/2026-10-04-tar-zip-and-friends-compress-anything-on-linux/
-#linux #terminal #beginner
+New on GTec: rsync: back up and sync files without the fear 👇
+https://gtec0.github.io/2026-10-05-rsync-back-up-and-sync-files-without-the-fear/
+#linux #backup #developertips
