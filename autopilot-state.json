@@ -167,6 +167,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-05T23:45:18.708490Z"
+    },
+    {
+      "topic": "Git branches without fear: branch, merge, resolve conflicts",
+      "file": "2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts.md",
+      "url": "https://gtec0.github.io/2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-06T12:46:01.805228Z"
     }
   ]
 }
