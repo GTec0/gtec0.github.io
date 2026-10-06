@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Git branches without fear: branch, merge, resolve conflicts
-Link: https://gtec0.github.io/2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/git-branches-without-fear-branch-merge-resolve-conflicts-banner.png
+MANUAL SHARE KIT — Fix any Git mess: detached HEAD, bad commits, wrong branch
+Link: https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/fix-any-git-mess-detached-head-bad-commits-wrong-branch-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Git branches without fear: branch, merge, resolve conflicts
+🚀 New tutorial: Fix any Git mess: detached HEAD, bad commits, wrong branch
 
-Learn to create, merge, and resolve conflicts in Git with a tiny repo you can run in a terminal.
+Panic‑free Git rescue recipes that use reflog to undo detached HEAD, bad commits, or wrong‑branch work.
 
-👉 Read it here: https://gtec0.github.io/2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts/
+👉 Read it here: https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
 
-#git #github #beginner #programming #coding #linux
+#git #developertips #programming #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Git branches without fear: branch, merge, resolve conflicts
+✨ Fix any Git mess: detached HEAD, bad commits, wrong branch
 
-Learn to create, merge, and resolve conflicts in Git with a tiny repo you can run in a terminal.
+Panic‑free Git rescue recipes that use reflog to undo detached HEAD, bad commits, or wrong‑branch work.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts/
+🔗 Link in bio / https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
 .
 .
 .
-#git #github #beginner #programming #coding #linux
+#git #developertips #programming #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Git branches without fear: branch, merge, resolve conflicts 👇
-https://gtec0.github.io/2026-10-06-git-branches-without-fear-branch-merge-resolve-conflicts/
-#git #github #beginner
+New on GTec: Fix any Git mess: detached HEAD, bad commits, wrong branch 👇
+https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
+#git #developertips #programming
