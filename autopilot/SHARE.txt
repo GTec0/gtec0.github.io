@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — cron in 15 minutes: schedule anything on Linux
-Link: https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/cron-in-15-minutes-schedule-anything-on-linux-banner.png
+MANUAL SHARE KIT — systemd for beginners: services, timers and logs
+Link: https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/systemd-for-beginners-services-timers-and-logs-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: cron in 15 minutes: schedule anything on Linux
+🚀 New tutorial: systemd for beginners: services, timers and logs
 
-Learn the crontab syntax, set up three useful scheduled jobs with logging, and avoid common pitfalls—all in under 15 minutes.
+Master Linux background tasks with systemd. Learn how to write custom unit files, schedule runs with timers, and inspect logs using journalctl.
 
-👉 Read it here: https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
+👉 Read it here: https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
 
-#linux #automation #beginner #programming #coding #python
+#linux #devops #programming #coding #python #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ cron in 15 minutes: schedule anything on Linux
+✨ systemd for beginners: services, timers and logs
 
-Learn the crontab syntax, set up three useful scheduled jobs with logging, and avoid common pitfalls—all in under 15 minutes.
+Master Linux background tasks with systemd. Learn how to write custom unit files, schedule runs with timers, and inspect logs using journalctl.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
+🔗 Link in bio / https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
 .
 .
 .
-#linux #automation #beginner #programming #coding #python
+#linux #devops #programming #coding #python #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: cron in 15 minutes: schedule anything on Linux 👇
-https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
-#linux #automation #beginner
+New on GTec: systemd for beginners: services, timers and logs 👇
+https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
+#linux #devops #programming

@@ -191,6 +191,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-07T12:40:32.544369Z"
+    },
+    {
+      "topic": "systemd for beginners: services, timers and logs",
+      "file": "2026-10-07-systemd-for-beginners-services-timers-and-logs.md",
+      "url": "https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-07T22:43:40.830667Z"
     }
   ]
 }
