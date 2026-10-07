@@ -183,6 +183,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-06T22:21:08.067064Z"
+    },
+    {
+      "topic": "cron in 15 minutes: schedule anything on Linux",
+      "file": "2026-10-07-cron-in-15-minutes-schedule-anything-on-linux.md",
+      "url": "https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-07T12:40:32.544369Z"
     }
   ]
 }

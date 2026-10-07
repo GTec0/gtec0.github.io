@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Fix any Git mess: detached HEAD, bad commits, wrong branch
-Link: https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/fix-any-git-mess-detached-head-bad-commits-wrong-branch-banner.png
+MANUAL SHARE KIT — cron in 15 minutes: schedule anything on Linux
+Link: https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/cron-in-15-minutes-schedule-anything-on-linux-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Fix any Git mess: detached HEAD, bad commits, wrong branch
+🚀 New tutorial: cron in 15 minutes: schedule anything on Linux
 
-Panic‑free Git rescue recipes that use reflog to undo detached HEAD, bad commits, or wrong‑branch work.
+Learn the crontab syntax, set up three useful scheduled jobs with logging, and avoid common pitfalls—all in under 15 minutes.
 
-👉 Read it here: https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
+👉 Read it here: https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
 
-#git #developertips #programming #coding #linux #python
+#linux #automation #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Fix any Git mess: detached HEAD, bad commits, wrong branch
+✨ cron in 15 minutes: schedule anything on Linux
 
-Panic‑free Git rescue recipes that use reflog to undo detached HEAD, bad commits, or wrong‑branch work.
+Learn the crontab syntax, set up three useful scheduled jobs with logging, and avoid common pitfalls—all in under 15 minutes.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
+🔗 Link in bio / https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
 .
 .
 .
-#git #developertips #programming #coding #linux #python
+#linux #automation #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Fix any Git mess: detached HEAD, bad commits, wrong branch 👇
-https://gtec0.github.io/2026-10-06-fix-any-git-mess-detached-head-bad-commits-wrong-branch/
-#git #developertips #programming
+New on GTec: cron in 15 minutes: schedule anything on Linux 👇
+https://gtec0.github.io/2026-10-07-cron-in-15-minutes-schedule-anything-on-linux/
+#linux #automation #beginner
