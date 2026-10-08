@@ -199,6 +199,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-07T22:43:40.830667Z"
+    },
+    {
+      "topic": "Vim survival guide: the 20 keys you actually need",
+      "file": "2026-10-08-vim-survival-guide-the-20-keys-you-actually-need.md",
+      "url": "https://gtec0.github.io/2026-10-08-vim-survival-guide-the-20-keys-you-actually-need/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-08T12:50:04.503244Z"
     }
   ]
 }

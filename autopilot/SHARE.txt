@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — systemd for beginners: services, timers and logs
-Link: https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/systemd-for-beginners-services-timers-and-logs-banner.png
+MANUAL SHARE KIT — Vim survival guide: the 20 keys you actually need
+Link: https://gtec0.github.io/2026-10-08-vim-survival-guide-the-20-keys-you-actually-need/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/vim-survival-guide-the-20-keys-you-actually-need-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: systemd for beginners: services, timers and logs
+🚀 New tutorial: Vim survival guide: the 20 keys you actually need
 
-Master Linux background tasks with systemd. Learn how to write custom unit files, schedule runs with timers, and inspect logs using journalctl.
+A quick cheat‑sheet of the 20 Vim keys you really need, plus a 5‑minute drill to turn you into a comfortable editor.
 
-👉 Read it here: https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
+👉 Read it here: https://gtec0.github.io/2026-10-08-vim-survival-guide-the-20-keys-you-actually-need/
 
-#linux #devops #programming #coding #python #techtips
+#linux #terminal #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ systemd for beginners: services, timers and logs
+✨ Vim survival guide: the 20 keys you actually need
 
-Master Linux background tasks with systemd. Learn how to write custom unit files, schedule runs with timers, and inspect logs using journalctl.
+A quick cheat‑sheet of the 20 Vim keys you really need, plus a 5‑minute drill to turn you into a comfortable editor.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
+🔗 Link in bio / https://gtec0.github.io/2026-10-08-vim-survival-guide-the-20-keys-you-actually-need/
 .
 .
 .
-#linux #devops #programming #coding #python #techtips
+#linux #terminal #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: systemd for beginners: services, timers and logs 👇
-https://gtec0.github.io/2026-10-07-systemd-for-beginners-services-timers-and-logs/
-#linux #devops #programming
+New on GTec: Vim survival guide: the 20 keys you actually need 👇
+https://gtec0.github.io/2026-10-08-vim-survival-guide-the-20-keys-you-actually-need/
+#linux #terminal #developertips
