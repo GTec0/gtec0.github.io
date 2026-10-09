@@ -223,6 +223,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-09T12:36:15.418540Z"
+    },
+    {
+      "topic": "Python f-strings and formatting: 12 patterns you will reuse",
+      "file": "2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse.md",
+      "url": "https://gtec0.github.io/2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-09T22:16:51.784075Z"
     }
   ]
 }
