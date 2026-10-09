@@ -215,6 +215,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-08T22:54:25.093053Z"
+    },
+    {
+      "topic": "Python pip and requirements: stop breaking your system Python",
+      "file": "2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python.md",
+      "url": "https://gtec0.github.io/2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-09T12:36:15.418540Z"
     }
   ]
 }

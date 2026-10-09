@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Nano to Vim: editing files on a server without panic
-Link: https://gtec0.github.io/2026-10-08-nano-to-vim-editing-files-on-a-server-without-panic/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/nano-to-vim-editing-files-on-a-server-without-panic-banner.png
+MANUAL SHARE KIT — Python pip and requirements: stop breaking your system Python
+Link: https://gtec0.github.io/2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-pip-and-requirements-stop-breaking-your-system-python-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Nano to Vim: editing files on a server without panic
+🚀 New tutorial: Python pip and requirements: stop breaking your system Python
 
-Learn the essential save, quit, and exit shortcuts for nano and vim, with step‑by‑step examples you can try on any remote Linux server.
+Learn how to protect your system Python with venv, pip freeze, and the --break-system-packages flag.
 
-👉 Read it here: https://gtec0.github.io/2026-10-08-nano-to-vim-editing-files-on-a-server-without-panic/
+👉 Read it here: https://gtec0.github.io/2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python/
 
-#linux #beginner #programming #coding #python #techtips
+#python #beginner #programming #coding #linux #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Nano to Vim: editing files on a server without panic
+✨ Python pip and requirements: stop breaking your system Python
 
-Learn the essential save, quit, and exit shortcuts for nano and vim, with step‑by‑step examples you can try on any remote Linux server.
+Learn how to protect your system Python with venv, pip freeze, and the --break-system-packages flag.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-08-nano-to-vim-editing-files-on-a-server-without-panic/
+🔗 Link in bio / https://gtec0.github.io/2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python/
 .
 .
 .
-#linux #beginner #programming #coding #python #techtips
+#python #beginner #programming #coding #linux #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Nano to Vim: editing files on a server without panic 👇
-https://gtec0.github.io/2026-10-08-nano-to-vim-editing-files-on-a-server-without-panic/
-#linux #beginner #programming
+New on GTec: Python pip and requirements: stop breaking your system Python 👇
+https://gtec0.github.io/2026-10-09-python-pip-and-requirements-stop-breaking-your-system-python/
+#python #beginner #programming
