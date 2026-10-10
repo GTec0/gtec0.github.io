@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Python f-strings and formatting: 12 patterns you will reuse
-Link: https://gtec0.github.io/2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-f-strings-and-formatting-12-patterns-you-will-reuse-banner.png
+MANUAL SHARE KIT — Python error handling that actually helps: try/except done right
+Link: https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-error-handling-that-actually-helps-try-except-done-right-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Python f-strings and formatting: 12 patterns you will reuse
+🚀 New tutorial: Python error handling that actually helps: try/except done right
 
-Learn 12 copy‑paste‑ready Python f‑string patterns, see before/after output, and get a runnable example you can drop into any project.
+Stop using bare except and hiding crashes. Learn how to catch specific Python errors and build a clean logging pattern that makes debugging easy.
 
-👉 Read it here: https://gtec0.github.io/2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse/
+👉 Read it here: https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
 
-#python #programming #beginner #coding #linux #techtips
+#python #programming #coding #linux #techtips #gtec
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Python f-strings and formatting: 12 patterns you will reuse
+✨ Python error handling that actually helps: try/except done right
 
-Learn 12 copy‑paste‑ready Python f‑string patterns, see before/after output, and get a runnable example you can drop into any project.
+Stop using bare except and hiding crashes. Learn how to catch specific Python errors and build a clean logging pattern that makes debugging easy.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse/
+🔗 Link in bio / https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
 .
 .
 .
-#python #programming #beginner #coding #linux #techtips
+#python #programming #coding #linux #techtips #gtec
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Python f-strings and formatting: 12 patterns you will reuse 👇
-https://gtec0.github.io/2026-10-09-python-f-strings-and-formatting-12-patterns-you-will-reuse/
-#python #programming #beginner
+New on GTec: Python error handling that actually helps: try/except done right 👇
+https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
+#python #programming #coding

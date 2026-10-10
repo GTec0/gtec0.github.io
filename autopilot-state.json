@@ -231,6 +231,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-09T22:16:51.784075Z"
+    },
+    {
+      "topic": "Python error handling that actually helps: try/except done right",
+      "file": "2026-10-10-python-error-handling-that-actually-helps-try-except-done-right.md",
+      "url": "https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-10T11:55:19.130171Z"
     }
   ]
 }
