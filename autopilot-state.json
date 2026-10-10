@@ -239,6 +239,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-10T11:55:19.130171Z"
+    },
+    {
+      "topic": "Read and write files in Python without the gotchas",
+      "file": "2026-10-10-read-and-write-files-in-python-without-the-gotchas.md",
+      "url": "https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-10T21:12:34.580161Z"
     }
   ]
 }

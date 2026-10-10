@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Python error handling that actually helps: try/except done right
-Link: https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/python-error-handling-that-actually-helps-try-except-done-right-banner.png
+MANUAL SHARE KIT — Read and write files in Python without the gotchas
+Link: https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/read-and-write-files-in-python-without-the-gotchas-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Python error handling that actually helps: try/except done right
+🚀 New tutorial: Read and write files in Python without the gotchas
 
-Stop using bare except and hiding crashes. Learn how to catch specific Python errors and build a clean logging pattern that makes debugging easy.
+Learn how to read and write plain text, CSV, and JSON files in Python using safe with‑blocks, proper path handling, and practical recipes that avoid common pitf
 
-👉 Read it here: https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
+👉 Read it here: https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
 
-#python #programming #coding #linux #techtips #gtec
+#python #beginner #programming #coding #linux #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Python error handling that actually helps: try/except done right
+✨ Read and write files in Python without the gotchas
 
-Stop using bare except and hiding crashes. Learn how to catch specific Python errors and build a clean logging pattern that makes debugging easy.
+Learn how to read and write plain text, CSV, and JSON files in Python using safe with‑blocks, proper path handling, and practical recipes that avoid common pitf
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
+🔗 Link in bio / https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
 .
 .
 .
-#python #programming #coding #linux #techtips #gtec
+#python #beginner #programming #coding #linux #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Python error handling that actually helps: try/except done right 👇
-https://gtec0.github.io/2026-10-10-python-error-handling-that-actually-helps-try-except-done-right/
-#python #programming #coding
+New on GTec: Read and write files in Python without the gotchas 👇
+https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
+#python #beginner #programming
