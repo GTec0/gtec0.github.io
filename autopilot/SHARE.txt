@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Environment variables in Python and Bash: configure like a pro
-Link: https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/environment-variables-in-python-and-bash-configure-like-a-pro-banner.png
+MANUAL SHARE KIT — SSH like a pro: config file, jump hosts and tunnels
+Link: https://gtec0.github.io/2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ssh-like-a-pro-config-file-jump-hosts-and-tunnels-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Environment variables in Python and Bash: configure like a pro
+🚀 New tutorial: SSH like a pro: config file, jump hosts and tunnels
 
-Learn to use .env files, Bash, and Python's os.getenv to manage configuration and secrets safely, with real‑world examples.
+Stop typing messy IP addresses and port flags. Learn how to master ~/.ssh/config, traverse jump hosts, and create local port tunnels like a pro.
 
-👉 Read it here: https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
+👉 Read it here: https://gtec0.github.io/2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels/
 
-#python #bash #devops #programming #coding #linux
+#linux #networking #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Environment variables in Python and Bash: configure like a pro
+✨ SSH like a pro: config file, jump hosts and tunnels
 
-Learn to use .env files, Bash, and Python's os.getenv to manage configuration and secrets safely, with real‑world examples.
+Stop typing messy IP addresses and port flags. Learn how to master ~/.ssh/config, traverse jump hosts, and create local port tunnels like a pro.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
+🔗 Link in bio / https://gtec0.github.io/2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels/
 .
 .
 .
-#python #bash #devops #programming #coding #linux
+#linux #networking #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Environment variables in Python and Bash: configure like a pro 👇
-https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
-#python #bash #devops
+New on GTec: SSH like a pro: config file, jump hosts and tunnels 👇
+https://gtec0.github.io/2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels/
+#linux #networking #developertips

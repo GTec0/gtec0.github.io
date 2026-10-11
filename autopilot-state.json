@@ -255,6 +255,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-11T12:08:27.340757Z"
+    },
+    {
+      "topic": "SSH like a pro: config file, jump hosts and tunnels",
+      "file": "2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels.md",
+      "url": "https://gtec0.github.io/2026-10-11-ssh-like-a-pro-config-file-jump-hosts-and-tunnels/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-11T21:29:27.898820Z"
     }
   ]
 }
