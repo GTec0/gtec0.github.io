@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Read and write files in Python without the gotchas
-Link: https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/read-and-write-files-in-python-without-the-gotchas-banner.png
+MANUAL SHARE KIT — Environment variables in Python and Bash: configure like a pro
+Link: https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/environment-variables-in-python-and-bash-configure-like-a-pro-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Read and write files in Python without the gotchas
+🚀 New tutorial: Environment variables in Python and Bash: configure like a pro
 
-Learn how to read and write plain text, CSV, and JSON files in Python using safe with‑blocks, proper path handling, and practical recipes that avoid common pitf
+Learn to use .env files, Bash, and Python's os.getenv to manage configuration and secrets safely, with real‑world examples.
 
-👉 Read it here: https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
+👉 Read it here: https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
 
-#python #beginner #programming #coding #linux #techtips
+#python #bash #devops #programming #coding #linux
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Read and write files in Python without the gotchas
+✨ Environment variables in Python and Bash: configure like a pro
 
-Learn how to read and write plain text, CSV, and JSON files in Python using safe with‑blocks, proper path handling, and practical recipes that avoid common pitf
+Learn to use .env files, Bash, and Python's os.getenv to manage configuration and secrets safely, with real‑world examples.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
+🔗 Link in bio / https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
 .
 .
 .
-#python #beginner #programming #coding #linux #techtips
+#python #bash #devops #programming #coding #linux
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Read and write files in Python without the gotchas 👇
-https://gtec0.github.io/2026-10-10-read-and-write-files-in-python-without-the-gotchas/
-#python #beginner #programming
+New on GTec: Environment variables in Python and Bash: configure like a pro 👇
+https://gtec0.github.io/2026-10-11-environment-variables-in-python-and-bash-configure-like-a-pro/
+#python #bash #devops
