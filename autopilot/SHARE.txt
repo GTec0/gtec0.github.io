@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — scp and sftp: move files to your server the easy way
-Link: https://gtec0.github.io/2026-10-12-scp-and-sftp-move-files-to-your-server-the-easy-way/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/scp-and-sftp-move-files-to-your-server-the-easy-way-banner.png
+MANUAL SHARE KIT — Check disk space like a detective: df, du and ncdu
+Link: https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/check-disk-space-like-a-detective-df-du-and-ncdu-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: scp and sftp: move files to your server the easy way
+🚀 New tutorial: Check disk space like a detective: df, du and ncdu
 
-Learn five practical scp and sftp recipes—progress bars, resumable transfers, and batch mode—plus a hands‑on example and troubleshooting tips.
+Learn how to track down rogue logs, hidden caches, and bloated folders on Linux using df, du, and ncdu in five simple, practical steps.
 
-👉 Read it here: https://gtec0.github.io/2026-10-12-scp-and-sftp-move-files-to-your-server-the-easy-way/
+👉 Read it here: https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
 
-#linux #beginner #programming #coding #python #techtips
+#linux #terminal #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ scp and sftp: move files to your server the easy way
+✨ Check disk space like a detective: df, du and ncdu
 
-Learn five practical scp and sftp recipes—progress bars, resumable transfers, and batch mode—plus a hands‑on example and troubleshooting tips.
+Learn how to track down rogue logs, hidden caches, and bloated folders on Linux using df, du, and ncdu in five simple, practical steps.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-12-scp-and-sftp-move-files-to-your-server-the-easy-way/
+🔗 Link in bio / https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
 .
 .
 .
-#linux #beginner #programming #coding #python #techtips
+#linux #terminal #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: scp and sftp: move files to your server the easy way 👇
-https://gtec0.github.io/2026-10-12-scp-and-sftp-move-files-to-your-server-the-easy-way/
-#linux #beginner #programming
+New on GTec: Check disk space like a detective: df, du and ncdu 👇
+https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
+#linux #terminal #beginner

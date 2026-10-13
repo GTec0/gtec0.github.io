@@ -271,6 +271,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-12T14:26:44.187402Z"
+    },
+    {
+      "topic": "Check disk space like a detective: df, du and ncdu",
+      "file": "2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu.md",
+      "url": "https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-13T00:09:38.510023Z"
     }
   ]
 }
