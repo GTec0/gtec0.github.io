@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Linux processes: ps, kill, htop and background jobs
-Link: https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/linux-processes-ps-kill-htop-and-background-jobs-banner.png
+MANUAL SHARE KIT — Ports demystified: ss, lsof and talking to localhost
+Link: https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ports-demystified-ss-lsof-and-talking-to-localhost-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Linux processes: ps, kill, htop and background jobs
+🚀 New tutorial: Ports demystified: ss, lsof and talking to localhost
 
-Learn how to locate a stuck Linux process, inspect it with ps/htop, kill it safely, and manage background jobs with &, jobs, and fg.
+Learn how to find and free “Address already in use” ports on Linux with ss, lsof, and simple localhost tests.
 
-👉 Read it here: https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
+👉 Read it here: https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
 
-#linux #beginner #programming #coding #python #techtips
+#linux #networking #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Linux processes: ps, kill, htop and background jobs
+✨ Ports demystified: ss, lsof and talking to localhost
 
-Learn how to locate a stuck Linux process, inspect it with ps/htop, kill it safely, and manage background jobs with &, jobs, and fg.
+Learn how to find and free “Address already in use” ports on Linux with ss, lsof, and simple localhost tests.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
+🔗 Link in bio / https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
 .
 .
 .
-#linux #beginner #programming #coding #python #techtips
+#linux #networking #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Linux processes: ps, kill, htop and background jobs 👇
-https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
-#linux #beginner #programming
+New on GTec: Ports demystified: ss, lsof and talking to localhost 👇
+https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
+#linux #networking #beginner
