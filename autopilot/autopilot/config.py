@@ -31,6 +31,17 @@ def load_config(path: str | Path | None = None) -> dict:
         else:
             blog["repo"] = str(here) if (here / blog.get("posts_dir", "_posts")).exists() else "."
     cfg["blog"] = blog
+
+    # social env overrides
+    soc = cfg.get("social", {})
+    soc["fb_page_id"] = os.getenv("FB_PAGE_ID", soc.get("fb_page_id", ""))
+    soc["fb_token"] = os.getenv("FB_TOKEN", soc.get("fb_token", ""))
+    soc["ig_user_id"] = os.getenv("IG_USER_ID", soc.get("ig_user_id", ""))
+    soc["ig_token"] = os.getenv("IG_TOKEN", soc.get("ig_token", ""))
+    soc["threads_user_id"] = os.getenv("THREADS_USER_ID", soc.get("threads_user_id", ""))
+    soc["threads_token"] = os.getenv("THREADS_TOKEN", soc.get("threads_token", ""))
+    cfg["social"] = soc
+
     cfg["_env"] = {
         "gemini_key": os.getenv("GEMINI_API_KEY", ""),
         "gemini_model": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),

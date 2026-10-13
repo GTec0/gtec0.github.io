@@ -123,10 +123,17 @@ def main() -> int:
     ST.record(state_path, {"topic": topic["topic"], "file": path.name, "url": url,
                            "provider": provider, "source": topic["source"]})
 
-    # ── 6. share kit (manual — you post it yourself) ──
+    # ── 6. share kit & automation ──
     kit = share_text(cfg, title, excerpt, url, tags, imgs["banner_abs"])
-    (ROOT / "SHARE.txt").write_text(kit)  # latest run only, overwritten each time
+    (ROOT / "SHARE.txt").write_text(kit)
     print(kit)
+
+    from autopilot import social
+    print("[social] attempting automation...")
+    res = social.share_all(cfg, title, excerpt, url, tags, imgs["banner_abs"])
+    for platform, success in res.items():
+        print(f"[social] {platform}: {'✅' if success else '❌'}")
+    
     return 0
 
 

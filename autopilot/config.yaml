@@ -62,3 +62,10 @@ social:
   fb_max: 2000
   ig_max: 1500
   threads_max: 500
+  # Automation Tokens (Optional)
+  fb_page_id: ""
+  fb_token: ""
+  ig_user_id: ""
+  ig_token: ""
+  threads_user_id: ""
+  threads_token: ""
