@@ -279,6 +279,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-13T00:09:38.510023Z"
+    },
+    {
+      "topic": "Linux processes: ps, kill, htop and background jobs",
+      "file": "2026-10-13-linux-processes-ps-kill-htop-and-background-jobs.md",
+      "url": "https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-13T13:35:32.470106Z"
     }
   ]
 }

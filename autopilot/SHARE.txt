@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Check disk space like a detective: df, du and ncdu
-Link: https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/check-disk-space-like-a-detective-df-du-and-ncdu-banner.png
+MANUAL SHARE KIT — Linux processes: ps, kill, htop and background jobs
+Link: https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/linux-processes-ps-kill-htop-and-background-jobs-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Check disk space like a detective: df, du and ncdu
+🚀 New tutorial: Linux processes: ps, kill, htop and background jobs
 
-Learn how to track down rogue logs, hidden caches, and bloated folders on Linux using df, du, and ncdu in five simple, practical steps.
+Learn how to locate a stuck Linux process, inspect it with ps/htop, kill it safely, and manage background jobs with &, jobs, and fg.
 
-👉 Read it here: https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
+👉 Read it here: https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
 
-#linux #terminal #beginner #programming #coding #python
+#linux #beginner #programming #coding #python #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Check disk space like a detective: df, du and ncdu
+✨ Linux processes: ps, kill, htop and background jobs
 
-Learn how to track down rogue logs, hidden caches, and bloated folders on Linux using df, du, and ncdu in five simple, practical steps.
+Learn how to locate a stuck Linux process, inspect it with ps/htop, kill it safely, and manage background jobs with &, jobs, and fg.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
+🔗 Link in bio / https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
 .
 .
 .
-#linux #terminal #beginner #programming #coding #python
+#linux #beginner #programming #coding #python #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Check disk space like a detective: df, du and ncdu 👇
-https://gtec0.github.io/2026-10-13-check-disk-space-like-a-detective-df-du-and-ncdu/
-#linux #terminal #beginner
+New on GTec: Linux processes: ps, kill, htop and background jobs 👇
+https://gtec0.github.io/2026-10-13-linux-processes-ps-kill-htop-and-background-jobs/
+#linux #beginner #programming
