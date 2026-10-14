@@ -295,6 +295,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-13T22:18:05.521093Z"
+    },
+    {
+      "topic": "Reading logs on Linux: tail, less, grep and journalctl",
+      "file": "2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl.md",
+      "url": "https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-14T11:13:31.430087Z"
     }
   ]
 }

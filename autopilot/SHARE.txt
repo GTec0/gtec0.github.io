@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Ports demystified: ss, lsof and talking to localhost
-Link: https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ports-demystified-ss-lsof-and-talking-to-localhost-banner.png
+MANUAL SHARE KIT — Reading logs on Linux: tail, less, grep and journalctl
+Link: https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/reading-logs-on-linux-tail-less-grep-and-journalctl-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Ports demystified: ss, lsof and talking to localhost
+🚀 New tutorial: Reading logs on Linux: tail, less, grep and journalctl
 
-Learn how to find and free “Address already in use” ports on Linux with ss, lsof, and simple localhost tests.
+Learn six essential Linux commands—tail, less, grep, and journalctl—to watch live logs, filter errors, and troubleshoot fast.
 
-👉 Read it here: https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
+👉 Read it here: https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
 
-#linux #networking #beginner #programming #coding #python
+#linux #beginner #developertips #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Ports demystified: ss, lsof and talking to localhost
+✨ Reading logs on Linux: tail, less, grep and journalctl
 
-Learn how to find and free “Address already in use” ports on Linux with ss, lsof, and simple localhost tests.
+Learn six essential Linux commands—tail, less, grep, and journalctl—to watch live logs, filter errors, and troubleshoot fast.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
 .
 .
 .
-#linux #networking #beginner #programming #coding #python
+#linux #beginner #developertips #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Ports demystified: ss, lsof and talking to localhost 👇
-https://gtec0.github.io/2026-10-13-ports-demystified-ss-lsof-and-talking-to-localhost/
-#linux #networking #beginner
+New on GTec: Reading logs on Linux: tail, less, grep and journalctl 👇
+https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
+#linux #beginner #developertips
