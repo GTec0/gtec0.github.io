@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Wi-Fi from the Linux terminal: nmcli essentials
-Link: https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/wi-fi-from-the-linux-terminal-nmcli-essentials-banner.png
+MANUAL SHARE KIT — Markdown in 15 minutes: write docs and READMEs that shine
+Link: https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/markdown-in-15-minutes-write-docs-and-readmes-that-shine-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Wi-Fi from the Linux terminal: nmcli essentials
+🚀 New tutorial: Markdown in 15 minutes: write docs and READMEs that shine
 
-Learn how to scan, connect, and create a Wi‑Fi hotspot from the Linux terminal using just five nmcli commands.
+Master GitHub Flavored Markdown in 15 minutes. Learn headers, tables, task lists, and code blocks to write clean, professional project READMEs.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
+👉 Read it here: https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
 
-#linux #networking #programming #coding #python #techtips
+#developertips #beginner #programming #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Wi-Fi from the Linux terminal: nmcli essentials
+✨ Markdown in 15 minutes: write docs and READMEs that shine
 
-Learn how to scan, connect, and create a Wi‑Fi hotspot from the Linux terminal using just five nmcli commands.
+Master GitHub Flavored Markdown in 15 minutes. Learn headers, tables, task lists, and code blocks to write clean, professional project READMEs.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
 .
 .
 .
-#linux #networking #programming #coding #python #techtips
+#developertips #beginner #programming #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Wi-Fi from the Linux terminal: nmcli essentials 👇
-https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
-#linux #networking #programming
+New on GTec: Markdown in 15 minutes: write docs and READMEs that shine 👇
+https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
+#developertips #beginner #programming

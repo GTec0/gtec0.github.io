@@ -319,6 +319,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-14T19:22:09.485353Z"
+    },
+    {
+      "topic": "Markdown in 15 minutes: write docs and READMEs that shine",
+      "file": "2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine.md",
+      "url": "https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-14T19:50:29.426569Z"
     }
   ]
 }
