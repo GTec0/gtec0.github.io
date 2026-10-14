@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Markdown in 15 minutes: write docs and READMEs that shine
-Link: https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/markdown-in-15-minutes-write-docs-and-readmes-that-shine-banner.png
+MANUAL SHARE KIT — GitHub README that gets you hired: structure + live example
+Link: https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/github-readme-that-gets-you-hired-structure-live-example-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Markdown in 15 minutes: write docs and READMEs that shine
+🚀 New tutorial: GitHub README that gets you hired: structure + live example
 
-Master GitHub Flavored Markdown in 15 minutes. Learn headers, tables, task lists, and code blocks to write clean, professional project READMEs.
+Learn how to write a job-winning GitHub README with shields.io badges, hero screenshots, setup guides, and a complete copy-paste template.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
+👉 Read it here: https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
 
-#developertips #beginner #programming #coding #linux #python
+#github #developertips #programming #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Markdown in 15 minutes: write docs and READMEs that shine
+✨ GitHub README that gets you hired: structure + live example
 
-Master GitHub Flavored Markdown in 15 minutes. Learn headers, tables, task lists, and code blocks to write clean, professional project READMEs.
+Learn how to write a job-winning GitHub README with shields.io badges, hero screenshots, setup guides, and a complete copy-paste template.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
 .
 .
 .
-#developertips #beginner #programming #coding #linux #python
+#github #developertips #programming #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Markdown in 15 minutes: write docs and READMEs that shine 👇
-https://gtec0.github.io/2026-10-14-markdown-in-15-minutes-write-docs-and-readmes-that-shine/
-#developertips #beginner #programming
+New on GTec: GitHub README that gets you hired: structure + live example 👇
+https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
+#github #developertips #programming

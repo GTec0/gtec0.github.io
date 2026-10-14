@@ -327,6 +327,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-14T19:50:29.426569Z"
+    },
+    {
+      "topic": "GitHub README that gets you hired: structure + live example",
+      "file": "2026-10-14-github-readme-that-gets-you-hired-structure-live-example.md",
+      "url": "https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-14T19:56:43.137413Z"
     }
   ]
 }
