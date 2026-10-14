@@ -311,6 +311,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-14T19:06:07.898269Z"
+    },
+    {
+      "topic": "Wi-Fi from the Linux terminal: nmcli essentials",
+      "file": "2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials.md",
+      "url": "https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-14T19:22:09.485353Z"
     }
   ]
 }

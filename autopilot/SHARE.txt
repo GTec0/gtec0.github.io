@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — ffmpeg in 10 recipes: convert, trim and compress media
-Link: https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ffmpeg-in-10-recipes-convert-trim-and-compress-media-banner.png
+MANUAL SHARE KIT — Wi-Fi from the Linux terminal: nmcli essentials
+Link: https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/wi-fi-from-the-linux-terminal-nmcli-essentials-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: ffmpeg in 10 recipes: convert, trim and compress media
+🚀 New tutorial: Wi-Fi from the Linux terminal: nmcli essentials
 
-Learn 10 practical ffmpeg one‑liners to convert, trim, and shrink videos on Linux without digging into codec theory.
+Learn how to scan, connect, and create a Wi‑Fi hotspot from the Linux terminal using just five nmcli commands.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
+👉 Read it here: https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
 
-#linux #developertips #programming #coding #python #techtips
+#linux #networking #programming #coding #python #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ ffmpeg in 10 recipes: convert, trim and compress media
+✨ Wi-Fi from the Linux terminal: nmcli essentials
 
-Learn 10 practical ffmpeg one‑liners to convert, trim, and shrink videos on Linux without digging into codec theory.
+Learn how to scan, connect, and create a Wi‑Fi hotspot from the Linux terminal using just five nmcli commands.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
 .
 .
 .
-#linux #developertips #programming #coding #python #techtips
+#linux #networking #programming #coding #python #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: ffmpeg in 10 recipes: convert, trim and compress media 👇
-https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
-#linux #developertips #programming
+New on GTec: Wi-Fi from the Linux terminal: nmcli essentials 👇
+https://gtec0.github.io/2026-10-14-wi-fi-from-the-linux-terminal-nmcli-essentials/
+#linux #networking #programming
