@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Reading logs on Linux: tail, less, grep and journalctl
-Link: https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/reading-logs-on-linux-tail-less-grep-and-journalctl-banner.png
+MANUAL SHARE KIT — ffmpeg in 10 recipes: convert, trim and compress media
+Link: https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/ffmpeg-in-10-recipes-convert-trim-and-compress-media-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Reading logs on Linux: tail, less, grep and journalctl
+🚀 New tutorial: ffmpeg in 10 recipes: convert, trim and compress media
 
-Learn six essential Linux commands—tail, less, grep, and journalctl—to watch live logs, filter errors, and troubleshoot fast.
+Learn 10 practical ffmpeg one‑liners to convert, trim, and shrink videos on Linux without digging into codec theory.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
+👉 Read it here: https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
 
-#linux #beginner #developertips #programming #coding #python
+#linux #developertips #programming #coding #python #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Reading logs on Linux: tail, less, grep and journalctl
+✨ ffmpeg in 10 recipes: convert, trim and compress media
 
-Learn six essential Linux commands—tail, less, grep, and journalctl—to watch live logs, filter errors, and troubleshoot fast.
+Learn 10 practical ffmpeg one‑liners to convert, trim, and shrink videos on Linux without digging into codec theory.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
 .
 .
 .
-#linux #beginner #developertips #programming #coding #python
+#linux #developertips #programming #coding #python #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Reading logs on Linux: tail, less, grep and journalctl 👇
-https://gtec0.github.io/2026-10-14-reading-logs-on-linux-tail-less-grep-and-journalctl/
-#linux #beginner #developertips
+New on GTec: ffmpeg in 10 recipes: convert, trim and compress media 👇
+https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/
+#linux #developertips #programming

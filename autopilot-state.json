@@ -303,6 +303,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-14T11:13:31.430087Z"
+    },
+    {
+      "topic": "ffmpeg in 10 recipes: convert, trim and compress media",
+      "file": "2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media.md",
+      "url": "https://gtec0.github.io/2026-10-14-ffmpeg-in-10-recipes-convert-trim-and-compress-media/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-14T19:06:07.898269Z"
     }
   ]
 }
