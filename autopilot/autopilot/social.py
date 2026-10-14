@@ -2,6 +2,7 @@
 from __future__ import annotations
 import requests
 import logging
+import os
 
 logger = logging.getLogger("autopilot.social")
 
@@ -17,9 +18,8 @@ def _meta_post(endpoint: str, params: dict, token: str) -> dict:
 
 def post_to_facebook(cfg: dict, caption: str, url: str, banner_abs: str) -> bool:
     """Posts to FB Page feed."""
-    tokens = cfg.get("social", {})
-    page_id = tokens.get("fb_page_id")
-    token = tokens.get("fb_token")
+    page_id = os.environ.get("FB_PAGE_ID") or cfg.get("social", {}).get("fb_page_id")
+    token = os.environ.get("FB_TOKEN") or cfg.get("social", {}).get("fb_token")
     if not page_id or not token:
         return False
 
@@ -32,9 +32,8 @@ def post_to_facebook(cfg: dict, caption: str, url: str, banner_abs: str) -> bool
 
 def post_to_instagram(cfg: dict, caption: str, url: str, banner_url: str) -> bool:
     """Posts to IG Business Account."""
-    tokens = cfg.get("social", {})
-    ig_id = tokens.get("ig_user_id")
-    token = tokens.get("ig_token")
+    ig_id = os.environ.get("IG_USER_ID") or cfg.get("social", {}).get("ig_user_id")
+    token = os.environ.get("IG_TOKEN") or cfg.get("social", {}).get("ig_token")
     if not ig_id or not token:
         return False
 
@@ -53,9 +52,8 @@ def post_to_instagram(cfg: dict, caption: str, url: str, banner_url: str) -> boo
 
 def post_to_threads(cfg: dict, caption: str, url: str, banner_url: str) -> bool:
     """Posts to Threads account."""
-    tokens = cfg.get("social", {})
-    threads_id = tokens.get("threads_user_id")
-    token = tokens.get("threads_token")
+    threads_id = os.environ.get("THREADS_USER_ID") or cfg.get("social", {}).get("threads_user_id")
+    token = os.environ.get("THREADS_TOKEN") or cfg.get("social", {}).get("threads_token")
     if not threads_id or not token:
         return False
 
