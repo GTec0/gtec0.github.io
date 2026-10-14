@@ -44,7 +44,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
-          MANUAL_TOPIC: ${ inputs.topic }
+          MANUAL_TOPIC: ${{ inputs.topic }}
         run: |
           ARGS=""
           [ -n "$MANUAL_TOPIC" ] && ARGS="$ARGS --topic $MANUAL_TOPIC"
