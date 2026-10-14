@@ -77,7 +77,7 @@ def share_all(cfg: dict, title: str, excerpt: str, url: str, tags: list[str], ba
     """Orchestrates sharing across all enabled platforms."""
     from . import captions as C
     
-    banner_rel = banner_abs.split("banners/")[-1]
+    banner_rel = str(banner_abs).split("banners/")[-1]
     banner_url = f"{cfg['blog']['url'].rstrip('/')}/assets/images/banners/{banner_rel}"
     
     results = {}

@@ -124,15 +124,19 @@ def main() -> int:
                            "provider": provider, "source": topic["source"]})
 
     # ── 6. share kit & automation ──
-    kit = share_text(cfg, title, excerpt, url, tags, imgs["banner_abs"])
-    (ROOT / "SHARE.txt").write_text(kit)
-    print(kit)
+    try:
+        kit = share_text(cfg, title, excerpt, url, tags, imgs["banner_abs"])
+        (ROOT / "SHARE.txt").write_text(kit)
+        print(kit)
 
-    from autopilot import social
-    print("[social] attempting automation...")
-    res = social.share_all(cfg, title, excerpt, url, tags, imgs["banner_abs"])
-    for platform, success in res.items():
-        print(f"[social] {platform}: {'✅' if success else '❌'}")
+        from autopilot import social
+        print("[social] attempting automation...")
+        res = social.share_all(cfg, title, excerpt, url, tags, imgs["banner_abs"])
+        for platform, success in res.items():
+            print(f"[social] {platform}: {'✅' if success else '❌'}")
+    except Exception as e:
+        print(f"[social] FATAL ERROR: {e}")
+        print("Social automation failed, but post was successfully generated and saved.")
     
     return 0
 
