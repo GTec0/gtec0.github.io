@@ -13,6 +13,7 @@ def _meta_post(endpoint: str, params: dict, token: str) -> dict:
         r.raise_for_status()
         return r.json()
     except Exception as e:
+        print(f"[social] Meta API error ({endpoint}): {e}")
         logger.error(f"Meta API error ({endpoint}): {e}")
         return {}
 
