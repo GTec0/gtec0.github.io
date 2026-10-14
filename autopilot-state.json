@@ -335,6 +335,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-14T19:56:43.137413Z"
+    },
+    {
+      "topic": "Semantic versioning and changelogs without the ceremony",
+      "file": "2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony.md",
+      "url": "https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-14T21:18:02.701354Z"
     }
   ]
 }

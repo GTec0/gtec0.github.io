@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — GitHub README that gets you hired: structure + live example
-Link: https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/github-readme-that-gets-you-hired-structure-live-example-banner.png
+MANUAL SHARE KIT — Semantic versioning and changelogs without the ceremony
+Link: https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/semantic-versioning-and-changelogs-without-the-ceremony-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: GitHub README that gets you hired: structure + live example
+🚀 New tutorial: Semantic versioning and changelogs without the ceremony
 
-Learn how to write a job-winning GitHub README with shields.io badges, hero screenshots, setup guides, and a complete copy-paste template.
+Master Semantic Versioning (MAJOR.MINOR.PATCH) and write clean, readable changelogs using simple Git workflows without overcomplicated tooling.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
+👉 Read it here: https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
 
-#github #developertips #programming #coding #linux #python
+#git #developertips #programming #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ GitHub README that gets you hired: structure + live example
+✨ Semantic versioning and changelogs without the ceremony
 
-Learn how to write a job-winning GitHub README with shields.io badges, hero screenshots, setup guides, and a complete copy-paste template.
+Master Semantic Versioning (MAJOR.MINOR.PATCH) and write clean, readable changelogs using simple Git workflows without overcomplicated tooling.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
+🔗 Link in bio / https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
 .
 .
 .
-#github #developertips #programming #coding #linux #python
+#git #developertips #programming #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: GitHub README that gets you hired: structure + live example 👇
-https://gtec0.github.io/2026-10-14-github-readme-that-gets-you-hired-structure-live-example/
-#github #developertips #programming
+New on GTec: Semantic versioning and changelogs without the ceremony 👇
+https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
+#git #developertips #programming
