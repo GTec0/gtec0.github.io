@@ -7,6 +7,7 @@ saves them to SHARE.txt (latest run) for easy copy-paste.
 Usage:
   python main.py --dry-run            # generate to ./preview/ (POST.md + SHARE.txt + banners)
   python main.py --topic "Your title" # force a topic
+  python main.py --test-mode         # skip AI and use static test post for social testing
   python main.py                       # fully-automatic: pick topic -> generate -> QA -> write files
                                  # (aborts with exit 4 if all AI providers fail — no filler ever published)
 """
@@ -31,6 +32,7 @@ def parse_args():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--topic", default=None)
+    ap.add_argument("--test-mode", action="store_true", help="Skip generation and use a static test post for social testing.")
     ap.add_argument("--allow-template", action="store_true",
                     help="permit the offline template fallback (local testing only). "
                          "--dry-run implies this; real runs fail instead of publishing filler.")
@@ -74,54 +76,63 @@ def main() -> int:
     banners_dir = root / cfg["blog"].get("banners_dir", "assets/images/banners")
     state_path = ROOT / "state.json" if Path(cfg["blog"]["repo"]).as_posix() == "." else root / "autopilot-state.json"
 
-    # ── 1. topic ──
-    topic = T.pick_topic(cfg, state_path, force_topic=a.topic)
-    print(f"[topic:{topic['source']}] {topic['topic']}")
+    if a.test_mode:
+        print("[test-mode] Skipping generation. Using static test data.")
+        title = "Test Post: Social Automation Verification"
+        excerpt = "Testing the social sharing pipeline without generating new content."
+        body = "This is a test body. No AI tokens were used."
+        tags = ["Testing", "Dev"]
+        provider = "test-mode"
+        # Use an existing banner if possible, else a dummy path
+        banner_rel = "test-banner.png" 
+        imgs = {"provider": "static", "banner_rel": banner_rel, "banner_abs": banners_dir / banner_rel}
+        url = "https://gtec0.github.io/test-post/"
+    else:
+        # ── 1. topic ──
+        topic = T.pick_topic(cfg, state_path, force_topic=a.topic)
+        print(f"[topic:{topic['source']}] {topic['topic']}")
 
-    # ── 2. text ──
-    body_raw, provider = llm.generate_post(cfg, topic,
-                                           allow_template=a.allow_template or a.dry_run)
-    if body_raw is None:
-        # ALL providers failed: publish NOTHING. Non-zero exit turns the
-        # Actions run red — owner notices the missing post and reads the log.
-        print(f"[llm] FATAL: {provider} — no post written, nothing committed. "
-              f"Check the [llm:*] FAILED lines above (keys? quota? model retired?).")
-        return 4
-    excerpt, body = llm.extract_excerpt(body_raw)
-    print(f"[llm] provider={provider} words={len(body.split())}")
+        # ── 2. text ──
+        body_raw, provider = llm.generate_post(cfg, topic,
+                                               allow_template=a.allow_template or a.dry_run)
+        if body_raw is None:
+            print(f"[llm] FATAL: {provider} — no post written, nothing committed. ")
+            return 4
+        excerpt, body = llm.extract_excerpt(body_raw)
+        print(f"[llm] provider={provider} words={len(body.split())}")
 
-    title = topic["topic"].strip().rstrip(".")
-    if len(title) > 88:
-        title = title[:85].rsplit(" ", 1)[0]
-    tags = topic.get("tags", ["Programming"])[:5]
+        title = topic["topic"].strip().rstrip(".")
+        if len(title) > 88:
+            title = title[:85].rsplit(" ", 1)[0]
+        tags = topic.get("tags", ["Programming"])[:5]
 
-    if a.dry_run:
-        prev = ROOT / "preview"
-        shutil.rmtree(prev, ignore_errors=True)
-        (prev / "banners").mkdir(parents=True)
-        imgs = IMG.make_images(cfg, title, tags, prev / "banners")
-        (prev / "POST.md").write_text(P.render_front_matter(title, excerpt, tags, imgs["banner_rel"], cfg["blog"]["author"], dt.date.today()) + body)
-        (prev / "SHARE.txt").write_text(share_text(cfg, title, excerpt, "https://gtec0.github.io/<slug>/", tags, imgs["banner_abs"]))
-        print("[dry-run] wrote preview/POST.md + preview/SHARE.txt + banners. Nothing else touched.")
-        return 0
+        if a.dry_run:
+            prev = ROOT / "preview"
+            shutil.rmtree(prev, ignore_errors=True)
+            (prev / "banners").mkdir(parents=True)
+            imgs = IMG.make_images(cfg, title, tags, prev / "banners")
+            (prev / "POST.md").write_text(P.render_front_matter(title, excerpt, tags, imgs["banner_rel"], cfg["blog"]["author"], dt.date.today()) + body)
+            (prev / "SHARE.txt").write_text(share_text(cfg, title, excerpt, "https://gtec0.github.io/<slug>/", tags, imgs["banner_abs"]))
+            print("[dry-run] wrote preview/POST.md + preview/SHARE.txt + banners. Nothing else touched.")
+            return 0
 
-    # ── 3. images ──
-    imgs = IMG.make_images(cfg, title, tags, banners_dir)
-    print(f"[img] provider={imgs['provider']} banner={imgs['banner_rel']}")
+        # ── 3. images ──
+        imgs = IMG.make_images(cfg, title, tags, banners_dir)
+        print(f"[img] provider={imgs['provider']} banner={imgs['banner_rel']}")
 
-    # ── 4. QA (blocks junk even in fully-automatic mode) ──
-    errs = QA.check(title, body, tags, cfg, posts_dir)
-    if errs:
-        print("[qa] BLOCKED:", "; ".join(errs))
-        return 2
+        # ── 4. QA (blocks junk even in fully-automatic mode) ──
+        errs = QA.check(title, body, tags, cfg, posts_dir)
+        if errs:
+            print("[qa] BLOCKED:", "; ".join(errs))
+            return 2
 
-    # ── 5. write post ──
-    path = P.write_post(cfg, title, excerpt, tags, body, imgs["banner_rel"])
-    url = P.post_url(cfg, path)
-    print(f"[post] {path} -> {url}")
+        # ── 5. write post ──
+        path = P.write_post(cfg, title, excerpt, tags, body, imgs["banner_rel"])
+        url = P.post_url(cfg, path)
+        print(f"[post] {path} -> {url}")
 
-    ST.record(state_path, {"topic": topic["topic"], "file": path.name, "url": url,
-                           "provider": provider, "source": topic["source"]})
+        ST.record(state_path, {"topic": topic["topic"], "file": path.name, "url": url,
+                               "provider": provider, "source": topic["source"]})
 
     # ── 6. share kit & automation ──
     try:

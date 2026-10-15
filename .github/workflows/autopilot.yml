@@ -12,6 +12,11 @@ on:
         description: 'Force a topic (optional)'
         required: false
         default: ''
+      test_mode:
+        description: 'Run in test mode (skip AI generation, use static post)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -45,9 +50,11 @@ jobs:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           MANUAL_TOPIC: ${{ inputs.topic }}
+          TEST_MODE: ${{ inputs.test_mode }}
         run: |
           ARGS=""
           [ -n "$MANUAL_TOPIC" ] && ARGS="$ARGS --topic $MANUAL_TOPIC"
+          [ "$TEST_MODE" = "true" ] && ARGS="$ARGS --test-mode"
           python autopilot/main.py $ARGS
           echo "===== SHARE KIT (copy-paste these yourself) ====="
           cat autopilot/SHARE.txt
