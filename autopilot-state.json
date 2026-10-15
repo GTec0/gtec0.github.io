@@ -351,6 +351,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-15T00:38:52.406082Z"
+    },
+    {
+      "topic": "Regular expressions part 2: groups, alternation and real validation",
+      "file": "2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation.md",
+      "url": "https://gtec0.github.io/2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-15T01:04:18.437612Z"
     }
   ]
 }

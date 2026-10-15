@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — JSON vs YAML vs TOML: which config format when
-Link: https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/json-vs-yaml-vs-toml-which-config-format-when-banner.png
+MANUAL SHARE KIT — Regular expressions part 2: groups, alternation and real validation
+Link: https://gtec0.github.io/2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/regular-expressions-part-2-groups-alternation-and-real-validation-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: JSON vs YAML vs TOML: which config format when
+🚀 New tutorial: Regular expressions part 2: groups, alternation and real validation
 
-A side‑by‑side look at JSON, YAML, and TOML lets you pick the right config format for your next project.
+Level up your regex skills with capture groups, alternation, and practical phone and email validation in Python and JavaScript.
 
-👉 Read it here: https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
+👉 Read it here: https://gtec0.github.io/2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation/
 
-#programming #devops #beginner #coding #linux #python
+#python #javascript #programming #coding #linux #techtips
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ JSON vs YAML vs TOML: which config format when
+✨ Regular expressions part 2: groups, alternation and real validation
 
-A side‑by‑side look at JSON, YAML, and TOML lets you pick the right config format for your next project.
+Level up your regex skills with capture groups, alternation, and practical phone and email validation in Python and JavaScript.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
+🔗 Link in bio / https://gtec0.github.io/2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation/
 .
 .
 .
-#programming #devops #beginner #coding #linux #python
+#python #javascript #programming #coding #linux #techtips
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: JSON vs YAML vs TOML: which config format when 👇
-https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
-#programming #devops #beginner
+New on GTec: Regular expressions part 2: groups, alternation and real validation 👇
+https://gtec0.github.io/2026-10-15-regular-expressions-part-2-groups-alternation-and-real-validation/
+#python #javascript #programming
