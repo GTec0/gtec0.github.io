@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Semantic versioning and changelogs without the ceremony
-Link: https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/semantic-versioning-and-changelogs-without-the-ceremony-banner.png
+MANUAL SHARE KIT — JSON vs YAML vs TOML: which config format when
+Link: https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/json-vs-yaml-vs-toml-which-config-format-when-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Semantic versioning and changelogs without the ceremony
+🚀 New tutorial: JSON vs YAML vs TOML: which config format when
 
-Master Semantic Versioning (MAJOR.MINOR.PATCH) and write clean, readable changelogs using simple Git workflows without overcomplicated tooling.
+A side‑by‑side look at JSON, YAML, and TOML lets you pick the right config format for your next project.
 
-👉 Read it here: https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
+👉 Read it here: https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
 
-#git #developertips #programming #coding #linux #python
+#programming #devops #beginner #coding #linux #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Semantic versioning and changelogs without the ceremony
+✨ JSON vs YAML vs TOML: which config format when
 
-Master Semantic Versioning (MAJOR.MINOR.PATCH) and write clean, readable changelogs using simple Git workflows without overcomplicated tooling.
+A side‑by‑side look at JSON, YAML, and TOML lets you pick the right config format for your next project.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
+🔗 Link in bio / https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
 .
 .
 .
-#git #developertips #programming #coding #linux #python
+#programming #devops #beginner #coding #linux #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Semantic versioning and changelogs without the ceremony 👇
-https://gtec0.github.io/2026-10-14-semantic-versioning-and-changelogs-without-the-ceremony/
-#git #developertips #programming
+New on GTec: JSON vs YAML vs TOML: which config format when 👇
+https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/
+#programming #devops #beginner

@@ -343,6 +343,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-14T21:18:02.701354Z"
+    },
+    {
+      "topic": "JSON vs YAML vs TOML: which config format when",
+      "file": "2026-10-15-json-vs-yaml-vs-toml-which-config-format-when.md",
+      "url": "https://gtec0.github.io/2026-10-15-json-vs-yaml-vs-toml-which-config-format-when/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-15T00:38:52.406082Z"
     }
   ]
 }
