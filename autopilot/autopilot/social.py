@@ -9,7 +9,7 @@ logger = logging.getLogger("autopilot.social")
 def _meta_post(endpoint: str, params: dict, token: str) -> dict:
     params["access_token"] = token
     try:
-        r = requests.post(f"https://graph.facebook.com/v20.0/{endpoint}", data=params, timeout=30)
+        r = requests.post(f"https://graph.facebook.com/v26.0/{endpoint}", data=params, timeout=30)
         r.raise_for_status()
         return r.json()
     except Exception as e:
