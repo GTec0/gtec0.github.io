@@ -125,13 +125,22 @@ def main() -> int:
 
     # ── 6. share kit & automation ──
     try:
-        kit = share_text(cfg, title, excerpt, url, tags, imgs["banner_abs"])
+        # FIX: Use the PREVIOUS post's URL to avoid 404s due to GitHub Pages deployment lag
+        st_data = ST.load(state_path)
+        if st_data["done"]:
+            share_url = st_data["done"][-1]["url"]
+            print(f"[social] Using previous post URL to avoid 404: {share_url}")
+        else:
+            share_url = url
+            print(f"[social] No previous post found, using current: {share_url}")
+
+        kit = share_text(cfg, title, excerpt, share_url, tags, imgs["banner_abs"])
         (ROOT / "SHARE.txt").write_text(kit)
         print(kit)
 
         from autopilot import social
         print("[social] attempting automation...")
-        res = social.share_all(cfg, title, excerpt, url, tags, imgs["banner_abs"])
+        res = social.share_all(cfg, title, excerpt, share_url, tags, imgs["banner_abs"])
         for platform, success in res.items():
             print(f"[social] {platform}: {'✅' if success else '❌'}")
     except Exception as e:

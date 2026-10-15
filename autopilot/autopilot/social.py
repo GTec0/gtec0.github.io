@@ -84,7 +84,8 @@ def share_all(cfg: dict, title: str, excerpt: str, url: str, tags: list[str], ba
     from . import captions as C
     
     banner_rel = str(banner_abs).split("banners/")[-1]
-    banner_url = f"{cfg['blog']['url'].rstrip('/')}/assets/images/banners/{banner_rel}"
+    # Use raw GitHub content for better reliability with Meta's crawlers
+    banner_url = f"https://raw.githubusercontent.com/GTec0/gtec0.github.io/master/assets/images/banners/{banner_rel}"
     
     results = {}
     
