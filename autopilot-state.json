@@ -359,6 +359,14 @@
       "provider": "gemini:gemini-3.8-flash",
       "source": "evergreen",
       "at": "2026-10-15T01:04:18.437612Z"
+    },
+    {
+      "topic": "Python requests: call any API in 20 lines",
+      "file": "2026-10-16-python-requests-call-any-api-in-20-lines.md",
+      "url": "https://gtec0.github.io/2026-10-16-python-requests-call-any-api-in-20-lines/",
+      "provider": "groq:openai/gpt-oss-120b",
+      "source": "evergreen",
+      "at": "2026-10-16T10:43:14.421686Z"
     }
   ]
 }
