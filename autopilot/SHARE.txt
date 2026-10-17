@@ -1,29 +1,29 @@
-MANUAL SHARE KIT — Bash one-liners that save your afternoon: pipes, xargs and friends
-Link: https://gtec0.github.io/2026-10-16-bash-one-liners-that-save-your-afternoon-pipes-xargs-and-friends/
-Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/bash-one-liners-that-save-your-afternoon-pipes-xargs-and-friends-banner.png
+MANUAL SHARE KIT — Aliases and functions: customize your terminal once, benefit daily
+Link: https://gtec0.github.io/2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily/
+Banner to upload: /home/runner/work/gtec0.github.io/gtec0.github.io/assets/images/banners/aliases-and-functions-customize-your-terminal-once-benefit-daily-banner.png
 (Post the banner + caption on IG/FB/Threads yourself.)
 
 ==================== FACEBOOK (paste + link attaches preview) ====================
-🚀 New tutorial: Bash one-liners that save your afternoon: pipes, xargs and friends
+🚀 New tutorial: Aliases and functions: customize your terminal once, benefit daily
 
-Discover 10 practical Bash one‑liners using pipes, xargs and friends, with clear breakdowns and a hands‑on example you can run right now.
+Stop retyping repetitive Linux commands. Learn how to write clean, reload-safe Bash aliases and functions in your .bashrc to supercharge your daily workflow.
 
-👉 Read it here: https://gtec0.github.io/2026-10-16-bash-one-liners-that-save-your-afternoon-pipes-xargs-and-friends/
+👉 Read it here: https://gtec0.github.io/2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily/
 
-#bash #linux #developertips #programming #coding #python
+#bash #linux #beginner #programming #coding #python
 
 ==================== INSTAGRAM (link NOT clickable — put URL in bio/stories) ====================
-✨ Bash one-liners that save your afternoon: pipes, xargs and friends
+✨ Aliases and functions: customize your terminal once, benefit daily
 
-Discover 10 practical Bash one‑liners using pipes, xargs and friends, with clear breakdowns and a hands‑on example you can run right now.
+Stop retyping repetitive Linux commands. Learn how to write clean, reload-safe Bash aliases and functions in your .bashrc to supercharge your daily workflow.
 
-🔗 Link in bio / https://gtec0.github.io/2026-10-16-bash-one-liners-that-save-your-afternoon-pipes-xargs-and-friends/
+🔗 Link in bio / https://gtec0.github.io/2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily/
 .
 .
 .
-#bash #linux #developertips #programming #coding #python
+#bash #linux #beginner #programming #coding #python
 
 ==================== THREADS (<=500 chars) ====================
-New on GTec: Bash one-liners that save your afternoon: pipes, xargs and friends 👇
-https://gtec0.github.io/2026-10-16-bash-one-liners-that-save-your-afternoon-pipes-xargs-and-friends/
-#bash #linux #developertips
+New on GTec: Aliases and functions: customize your terminal once, benefit daily 👇
+https://gtec0.github.io/2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily/
+#bash #linux #beginner

@@ -375,6 +375,14 @@
       "provider": "groq:openai/gpt-oss-120b",
       "source": "evergreen",
       "at": "2026-10-16T20:32:14.596767Z"
+    },
+    {
+      "topic": "Aliases and functions: customize your terminal once, benefit daily",
+      "file": "2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily.md",
+      "url": "https://gtec0.github.io/2026-10-17-aliases-and-functions-customize-your-terminal-once-benefit-daily/",
+      "provider": "gemini:gemini-3.8-flash",
+      "source": "evergreen",
+      "at": "2026-10-17T10:09:33.604847Z"
     }
   ]
 }
